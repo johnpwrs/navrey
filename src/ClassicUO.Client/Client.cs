@@ -40,10 +40,37 @@ namespace ClassicUO
 
         }
 
+        /// <summary>
+        /// Loads everything that does not need a GraphicsDevice: the UO data files, the client
+        /// version/protocol flags, and the static lookup tables. Split out of <see cref="Load"/> so
+        /// a render-free host can bring the game data up without a graphics context.
+        /// </summary>
+        public void LoadFiles() => LoadUOFiles();
+
+        /// <summary>
+        /// Creates the world. Kept separate from <see cref="LoadRenderers"/> so the ordering
+        /// "files, then renderers, then world" stays explicit; only <see cref="GameCursor"/> ties
+        /// the world to a graphics device, and it lives on the renderer side.
+        /// </summary>
+        public void CreateWorld()
+        {
+            World = new World();
+        }
+
         public unsafe void Load(GameController game)
         {
-            LoadUOFiles();
+            LoadFiles();
+            LoadRenderers(game);
+            CreateWorld();
+            GameCursor = new GameCursor(World, game.DpiScale);
+        }
 
+        /// <summary>
+        /// Everything that requires a live GraphicsDevice: the hue/light sampler textures and the
+        /// per-asset renderers.
+        /// </summary>
+        public unsafe void LoadRenderers(GameController game)
+        {
             const int TEXTURE_WIDTH = 512;
             const int TEXTURE_HEIGHT = 1024;
             const int LIGHTS_TEXTURE_WIDTH = 32;
@@ -91,9 +118,6 @@ namespace ClassicUO
             FontGlyphAtlas = new Renderer.FontGlyphAtlas(FileManager.Fonts, game.GraphicsDevice);
 
             LightColors.LoadLights();
-
-            World = new World();
-            GameCursor = new GameCursor(World, game.DpiScale);
         }
 
         public void Unload()

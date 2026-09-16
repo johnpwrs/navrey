@@ -1286,16 +1286,23 @@ namespace ClassicUO.Network
             writer.WriteUInt32BE(server);
             writer.WriteUInt32BE((uint) button);
 
-            writer.WriteUInt32BE((uint) switches.Length);
+            // Both default to null (a gump reply with no checkboxes/radios or text fields, the
+            // common case for a plain button press) - treat that the same as zero-length rather
+            // than dereferencing null.
+            int switchCount = switches?.Length ?? 0;
 
-            for (int i = 0; i < switches.Length; ++i)
+            writer.WriteUInt32BE((uint) switchCount);
+
+            for (int i = 0; i < switchCount; ++i)
             {
                 writer.WriteUInt32BE(switches[i]);
             }
 
-            writer.WriteUInt32BE((uint) entries.Length);
+            int entryCount = entries?.Length ?? 0;
 
-            for (int i = 0; i < entries.Length; ++i)
+            writer.WriteUInt32BE((uint) entryCount);
+
+            for (int i = 0; i < entryCount; ++i)
             {
                 int len = Math.Min(239, entries[i].Item2.Length);
 

@@ -5,6 +5,7 @@ using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using ClassicUO.Configuration.Json;
+using ClassicUO.Utility.Logging;
 using Microsoft.Xna.Framework;
 
 namespace ClassicUO.Configuration
@@ -42,15 +43,18 @@ namespace ClassicUO.Configuration
          */
         [JsonPropertyName("ignore_relay_ip")] public bool IgnoreRelayIp { get; set; } = false;
 
-        [JsonPropertyName("ultimaonlinedirectory")] public string UltimaOnlineDirectory { get; set; } = "";
+        [JsonPropertyName("uo_directory")] public string UltimaOnlineDirectory { get; set; } = "";
 
-        [JsonPropertyName("profilespath")] public string ProfilesPath { get; set; } = string.Empty;
+        /// <summary>Directory of point-of-interest JSON for the agent's poi/closest/findpoi commands. Empty means the built-in data.</summary>
+        [JsonPropertyName("poi_directory")] public string PoiDirectory { get; set; } = string.Empty;
 
-        [JsonPropertyName("clientversion")] public string ClientVersion { get; set; } = string.Empty;
+        [JsonPropertyName("profiles_path")] public string ProfilesPath { get; set; } = string.Empty;
+
+        [JsonPropertyName("client_version")] public string ClientVersion { get; set; } = string.Empty;
 
         [JsonPropertyName("lang")] public string Language { get; set; } = "";
 
-        [JsonPropertyName("lastservernum")] public ushort LastServerNum { get; set; } = 1;
+        [JsonPropertyName("last_server_num")] public ushort LastServerNum { get; set; } = 1;
 
         [JsonPropertyName("last_server_name")] public string LastServerName { get; set; } = string.Empty;
 
@@ -63,9 +67,9 @@ namespace ClassicUO.Configuration
 
         [JsonPropertyName("is_win_maximized")] public bool IsWindowMaximized { get; set; } = true;
 
-        [JsonPropertyName("saveaccount")] public bool SaveAccount { get; set; }
+        [JsonPropertyName("save_account")] public bool SaveAccount { get; set; }
 
-        [JsonPropertyName("autologin")] public bool AutoLogin { get; set; }
+        [JsonPropertyName("auto_login")] public bool AutoLogin { get; set; }
 
         [JsonPropertyName("reconnect")] public bool Reconnect { get; set; }
 
@@ -110,23 +114,12 @@ namespace ClassicUO.Configuration
 
         public void Save()
         {
-            // Make a copy of the settings object that we will use in the saving process
-            var json = JsonSerializer.Serialize(this, SettingsJsonContext.RealDefault.Settings);
-            var settingsToSave = JsonSerializer.Deserialize(json, SettingsJsonContext.RealDefault.Settings);
-
-            // Make sure we don't save username and password if `saveaccount` flag is not set
-            // NOTE: Even if we pass username and password via command-line arguments they won't be saved
-            if (!settingsToSave.SaveAccount)
-            {
-                settingsToSave.Username = string.Empty;
-                settingsToSave.Password = string.Empty;
-            }
-
-            settingsToSave.ProfilesPath = string.Empty;
-
-            // NOTE: We can do any other settings clean-ups here before we save them
-
-            ConfigurationResolver.Save(settingsToSave, GetSettingsFilepath(), SettingsJsonContext.RealDefault.Settings);
+            // settings.json is edited by hand, never by the client. It is the one tracked source of
+            // shard, version, data paths and selection, and every clean exit used to rewrite it
+            // (window size, and an "auto_login": true that the .env credentials had switched on),
+            // leaving the tracked file dirty after each run. Nothing the client would persist here
+            // is worth that: the on-disk file stays exactly as the user wrote it.
+            Log.Trace("settings.json is read-only to the client - not saving");
         }
     }
 }

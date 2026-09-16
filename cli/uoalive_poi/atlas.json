@@ -1,0 +1,2336 @@
+{
+ "source": "Atlas.map",
+ "gridSize": 100,
+ "bounds": {
+  "minX": 303,
+  "maxX": 5855,
+  "minY": 42,
+  "maxY": 3998
+ },
+ "pointCount": 212,
+ "cellCount": 103,
+ "cells": {
+  "25,0": [
+   {
+    "x": 2500,
+    "y": 42,
+    "z": 0,
+    "map": 0,
+    "name": "Crescent Mountain",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2500,
+    "y": 42,
+    "z": 0,
+    "map": 1,
+    "name": "Crescent Mountain",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "19,0": [
+   {
+    "x": 1970,
+    "y": 80,
+    "z": 0,
+    "map": 0,
+    "name": "Ice Mountain",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1970,
+    "y": 80,
+    "z": 0,
+    "map": 1,
+    "name": "Ice Mountain",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "11,1": [
+   {
+    "x": 1188,
+    "y": 136,
+    "z": 0,
+    "map": 0,
+    "name": "Candelabra Point",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1188,
+    "y": 136,
+    "z": 0,
+    "map": 1,
+    "name": "Candelabra Point",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "25,1": [
+   {
+    "x": 2560,
+    "y": 142,
+    "z": 0,
+    "map": 0,
+    "name": "High Steppes",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2560,
+    "y": 142,
+    "z": 0,
+    "map": 1,
+    "name": "High Steppes",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "11,2": [
+   {
+    "x": 1184,
+    "y": 206,
+    "z": 0,
+    "map": 0,
+    "name": "Flower Grove",
+    "category": "scenic",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1184,
+    "y": 206,
+    "z": 0,
+    "map": 1,
+    "name": "Flower Grove",
+    "category": "scenic",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "19,2": [
+   {
+    "x": 1942,
+    "y": 264,
+    "z": 0,
+    "map": 0,
+    "name": "Prison Peak",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1942,
+    "y": 264,
+    "z": 0,
+    "map": 1,
+    "name": "Prison Peak",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "23,3": [
+   {
+    "x": 2340,
+    "y": 322,
+    "z": 0,
+    "map": 0,
+    "name": "Lost Hope Bay",
+    "category": "water",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2340,
+    "y": 322,
+    "z": 0,
+    "map": 1,
+    "name": "Lost Hope Bay",
+    "category": "water",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "13,3": [
+   {
+    "x": 1386,
+    "y": 362,
+    "z": 0,
+    "map": 0,
+    "name": "Three Tile Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1386,
+    "y": 362,
+    "z": 0,
+    "map": 1,
+    "name": "Three Tile Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "40,3": [
+   {
+    "x": 4024,
+    "y": 364,
+    "z": 0,
+    "map": 0,
+    "name": "Frozen Mountains",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 4024,
+    "y": 364,
+    "z": 0,
+    "map": 1,
+    "name": "Frozen Mountains",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "15,3": [
+   {
+    "x": 1504,
+    "y": 365,
+    "z": 0,
+    "map": 0,
+    "name": "Dot Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1504,
+    "y": 365,
+    "z": 0,
+    "map": 1,
+    "name": "Dot Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "31,4": [
+   {
+    "x": 3116,
+    "y": 440,
+    "z": 0,
+    "map": 0,
+    "name": "Windemere Wood",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 3116,
+    "y": 440,
+    "z": 0,
+    "map": 1,
+    "name": "Windemere Wood",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "25,4": [
+   {
+    "x": 2576,
+    "y": 448,
+    "z": 0,
+    "map": 0,
+    "name": "Mount Kendall",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2576,
+    "y": 448,
+    "z": 0,
+    "map": 1,
+    "name": "Mount Kendall",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "14,4": [
+   {
+    "x": 1496,
+    "y": 472,
+    "z": 0,
+    "map": 0,
+    "name": "Arrow's Point Bay",
+    "category": "water",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1496,
+    "y": 472,
+    "z": 0,
+    "map": 1,
+    "name": "Arrow's Point Bay",
+    "category": "water",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "41,5": [
+   {
+    "x": 4112,
+    "y": 532,
+    "z": 0,
+    "map": 0,
+    "name": "Dagger Isle",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 4112,
+    "y": 532,
+    "z": 0,
+    "map": 1,
+    "name": "Dagger Isle",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "13,5": [
+   {
+    "x": 1317,
+    "y": 535,
+    "z": 0,
+    "map": 0,
+    "name": "Waterfall",
+    "category": "scenic",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1317,
+    "y": 535,
+    "z": 0,
+    "map": 1,
+    "name": "Waterfall",
+    "category": "scenic",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "33,5": [
+   {
+    "x": 3342,
+    "y": 576,
+    "z": 0,
+    "map": 0,
+    "name": "Trappers' Huts",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 3342,
+    "y": 576,
+    "z": 0,
+    "map": 1,
+    "name": "Trappers' Huts",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "10,7": [
+   {
+    "x": 1015,
+    "y": 704,
+    "z": 0,
+    "map": 0,
+    "name": "Yew Crypts",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1015,
+    "y": 704,
+    "z": 0,
+    "map": 1,
+    "name": "Yew Crypts",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "9,7": [
+   {
+    "x": 957,
+    "y": 708,
+    "z": 0,
+    "map": 0,
+    "name": "Yew Crypts",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 957,
+    "y": 708,
+    "z": 0,
+    "map": 1,
+    "name": "Yew Crypts",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 965,
+    "y": 762,
+    "z": 0,
+    "map": 0,
+    "name": "Yew Crypts",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 965,
+    "y": 762,
+    "z": 0,
+    "map": 1,
+    "name": "Yew Crypts",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "18,7": [
+   {
+    "x": 1820,
+    "y": 722,
+    "z": 0,
+    "map": 0,
+    "name": "Guard Outpost",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1820,
+    "y": 722,
+    "z": 0,
+    "map": 1,
+    "name": "Guard Outpost",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "20,8": [
+   {
+    "x": 2059,
+    "y": 804,
+    "z": 0,
+    "map": 0,
+    "name": "Stonegate",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2059,
+    "y": 804,
+    "z": 0,
+    "map": 1,
+    "name": "Stonegate",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "10,8": [
+   {
+    "x": 1015,
+    "y": 823,
+    "z": 0,
+    "map": 0,
+    "name": "Yew Crypts",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1015,
+    "y": 823,
+    "z": 0,
+    "map": 1,
+    "name": "Yew Crypts",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "21,8": [
+   {
+    "x": 2160,
+    "y": 834,
+    "z": 0,
+    "map": 0,
+    "name": "Bloody Plains",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2160,
+    "y": 834,
+    "z": 0,
+    "map": 1,
+    "name": "Bloody Plains",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "19,8": [
+   {
+    "x": 1928,
+    "y": 864,
+    "z": 0,
+    "map": 0,
+    "name": "Desert of Compassion",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1928,
+    "y": 864,
+    "z": 0,
+    "map": 1,
+    "name": "Desert of Compassion",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "24,8": [
+   {
+    "x": 2469,
+    "y": 879,
+    "z": 0,
+    "map": 0,
+    "name": "Mountains of Avarice",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2469,
+    "y": 879,
+    "z": 0,
+    "map": 1,
+    "name": "Mountains of Avarice",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "9,9": [
+   {
+    "x": 900,
+    "y": 914,
+    "z": 0,
+    "map": 0,
+    "name": "Deep Forest",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 900,
+    "y": 914,
+    "z": 0,
+    "map": 1,
+    "name": "Deep Forest",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "22,9": [
+   {
+    "x": 2273,
+    "y": 927,
+    "z": 0,
+    "map": 0,
+    "name": "Guard Outpost",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2273,
+    "y": 927,
+    "z": 0,
+    "map": 1,
+    "name": "Guard Outpost",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "3,9": [
+   {
+    "x": 303,
+    "y": 947,
+    "z": 0,
+    "map": 0,
+    "name": "Hidden Cave? (Click Ground)",
+    "category": "interest",
+    "color": "yellow"
+   },
+   {
+    "x": 303,
+    "y": 947,
+    "z": 0,
+    "map": 1,
+    "name": "Hidden Cave? (Click Ground)",
+    "category": "interest",
+    "color": "yellow"
+   }
+  ],
+  "15,9": [
+   {
+    "x": 1536,
+    "y": 992,
+    "z": 0,
+    "map": 0,
+    "name": "Valley of Chaos",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1536,
+    "y": 992,
+    "z": 0,
+    "map": 1,
+    "name": "Valley of Chaos",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "20,10": [
+   {
+    "x": 2034,
+    "y": 1004,
+    "z": 0,
+    "map": 0,
+    "name": "Bog of Desolation",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2034,
+    "y": 1004,
+    "z": 0,
+    "map": 1,
+    "name": "Bog of Desolation",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "15,10": [
+   {
+    "x": 1556,
+    "y": 1052,
+    "z": 0,
+    "map": 0,
+    "name": "Forest of Samlethe",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1556,
+    "y": 1052,
+    "z": 0,
+    "map": 1,
+    "name": "Forest of Samlethe",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "21,10": [
+   {
+    "x": 2154,
+    "y": 1054,
+    "z": 0,
+    "map": 0,
+    "name": "Loch Lake",
+    "category": "water",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2154,
+    "y": 1054,
+    "z": 0,
+    "map": 1,
+    "name": "Loch Lake",
+    "category": "water",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "10,10": [
+   {
+    "x": 1039,
+    "y": 1080,
+    "z": 0,
+    "map": 0,
+    "name": "Guard Outpost",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1039,
+    "y": 1080,
+    "z": 0,
+    "map": 1,
+    "name": "Guard Outpost",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "25,11": [
+   {
+    "x": 2582,
+    "y": 1117,
+    "z": 0,
+    "map": 0,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2582,
+    "y": 1117,
+    "z": 0,
+    "map": 1,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "19,11": [
+   {
+    "x": 1938,
+    "y": 1147,
+    "z": 0,
+    "map": 0,
+    "name": "Guard Outpost",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1938,
+    "y": 1147,
+    "z": 0,
+    "map": 1,
+    "name": "Guard Outpost",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "45,12": [
+   {
+    "x": 4524,
+    "y": 1216,
+    "z": 0,
+    "map": 0,
+    "name": "Verity Isle",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 4524,
+    "y": 1216,
+    "z": 0,
+    "map": 1,
+    "name": "Verity Isle",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "11,12": [
+   {
+    "x": 1176,
+    "y": 1228,
+    "z": 0,
+    "map": 0,
+    "name": "Serpent's Spine Mountains",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1176,
+    "y": 1228,
+    "z": 0,
+    "map": 1,
+    "name": "Serpent's Spine Mountains",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "7,13": [
+   {
+    "x": 750,
+    "y": 1308,
+    "z": 0,
+    "map": 0,
+    "name": "Guard Outpost",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 750,
+    "y": 1308,
+    "z": 0,
+    "map": 1,
+    "name": "Guard Outpost",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "5,13": [
+   {
+    "x": 569,
+    "y": 1310,
+    "z": 0,
+    "map": 0,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 569,
+    "y": 1310,
+    "z": 0,
+    "map": 1,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "37,13": [
+   {
+    "x": 3728,
+    "y": 1360,
+    "z": 0,
+    "map": 0,
+    "name": "Chessboard",
+    "category": "interest",
+    "color": "yellow"
+   },
+   {
+    "x": 3728,
+    "y": 1360,
+    "z": 0,
+    "map": 1,
+    "name": "Chessboard",
+    "category": "interest",
+    "color": "yellow"
+   }
+  ],
+  "10,13": [
+   {
+    "x": 1028,
+    "y": 1368,
+    "z": 0,
+    "map": 0,
+    "name": "Rat Valley",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1028,
+    "y": 1368,
+    "z": 0,
+    "map": 1,
+    "name": "Rat Valley",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "7,14": [
+   {
+    "x": 758,
+    "y": 1403,
+    "z": 0,
+    "map": 0,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 758,
+    "y": 1403,
+    "z": 0,
+    "map": 1,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 720,
+    "y": 1480,
+    "z": 0,
+    "map": 0,
+    "name": "Guard Outpost",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 720,
+    "y": 1480,
+    "z": 0,
+    "map": 1,
+    "name": "Guard Outpost",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "8,14": [
+   {
+    "x": 805,
+    "y": 1463,
+    "z": 0,
+    "map": 0,
+    "name": "Grove of Love",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 805,
+    "y": 1463,
+    "z": 0,
+    "map": 1,
+    "name": "Grove of Love",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "5,15": [
+   {
+    "x": 568,
+    "y": 1540,
+    "z": 0,
+    "map": 0,
+    "name": "Peaks of Disgrace",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 568,
+    "y": 1540,
+    "z": 0,
+    "map": 1,
+    "name": "Peaks of Disgrace",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "8,15": [
+   {
+    "x": 850,
+    "y": 1546,
+    "z": 0,
+    "map": 0,
+    "name": "Grizelda's Home",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 850,
+    "y": 1546,
+    "z": 0,
+    "map": 1,
+    "name": "Grizelda's Home",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "5,16": [
+   {
+    "x": 572,
+    "y": 1636,
+    "z": 0,
+    "map": 0,
+    "name": "Waterfall",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 572,
+    "y": 1636,
+    "z": 0,
+    "map": 1,
+    "name": "Waterfall",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "4,16": [
+   {
+    "x": 475,
+    "y": 1655,
+    "z": 0,
+    "map": 0,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 475,
+    "y": 1655,
+    "z": 0,
+    "map": 1,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "12,17": [
+   {
+    "x": 1250,
+    "y": 1734,
+    "z": 0,
+    "map": 0,
+    "name": "Crimson Plains",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1250,
+    "y": 1734,
+    "z": 0,
+    "map": 1,
+    "name": "Crimson Plains",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "9,17": [
+   {
+    "x": 960,
+    "y": 1762,
+    "z": 0,
+    "map": 0,
+    "name": "Guard Outpost",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 960,
+    "y": 1762,
+    "z": 0,
+    "map": 1,
+    "name": "Guard Outpost",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "15,18": [
+   {
+    "x": 1584,
+    "y": 1830,
+    "z": 0,
+    "map": 0,
+    "name": "Brittany Bay",
+    "category": "water",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1584,
+    "y": 1830,
+    "z": 0,
+    "map": 1,
+    "name": "Brittany Bay",
+    "category": "water",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "10,19": [
+   {
+    "x": 1012,
+    "y": 1937,
+    "z": 0,
+    "map": 0,
+    "name": "Britain/Yew/Skara Brae Crossroads",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1012,
+    "y": 1937,
+    "z": 0,
+    "map": 1,
+    "name": "Britain/Yew/Skara Brae Crossroads",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "20,19": [
+   {
+    "x": 2049,
+    "y": 1952,
+    "z": 0,
+    "map": 0,
+    "name": "Ocarina Isle",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2049,
+    "y": 1952,
+    "z": 0,
+    "map": 1,
+    "name": "Ocarina Isle",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "17,19": [
+   {
+    "x": 1704,
+    "y": 1996,
+    "z": 0,
+    "map": 0,
+    "name": "Eiffel Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1704,
+    "y": 1996,
+    "z": 0,
+    "map": 1,
+    "name": "Eiffel Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "21,20": [
+   {
+    "x": 2188,
+    "y": 2000,
+    "z": 0,
+    "map": 0,
+    "name": "Blanche Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2188,
+    "y": 2000,
+    "z": 0,
+    "map": 1,
+    "name": "Blanche Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "4,20": [
+   {
+    "x": 452,
+    "y": 2060,
+    "z": 0,
+    "map": 0,
+    "name": "Iver's Rounding",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 452,
+    "y": 2060,
+    "z": 0,
+    "map": 1,
+    "name": "Iver's Rounding",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "19,20": [
+   {
+    "x": 1916,
+    "y": 2092,
+    "z": 0,
+    "map": 0,
+    "name": "Marble Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1916,
+    "y": 2092,
+    "z": 0,
+    "map": 1,
+    "name": "Marble Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "14,21": [
+   {
+    "x": 1415,
+    "y": 2105,
+    "z": 0,
+    "map": 0,
+    "name": "Guard Outpost",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1415,
+    "y": 2105,
+    "z": 0,
+    "map": 1,
+    "name": "Guard Outpost",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "21,21": [
+   {
+    "x": 2100,
+    "y": 2108,
+    "z": 0,
+    "map": 0,
+    "name": "Horseshoe Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2100,
+    "y": 2108,
+    "z": 0,
+    "map": 1,
+    "name": "Horseshoe Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "29,21": [
+   {
+    "x": 2953,
+    "y": 2168,
+    "z": 0,
+    "map": 0,
+    "name": "Skull Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2953,
+    "y": 2168,
+    "z": 0,
+    "map": 1,
+    "name": "Skull Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "7,22": [
+   {
+    "x": 784,
+    "y": 2242,
+    "z": 0,
+    "map": 0,
+    "name": "Ranger Huts",
+    "category": "scenic",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 784,
+    "y": 2242,
+    "z": 0,
+    "map": 1,
+    "name": "Ranger Huts",
+    "category": "scenic",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "13,22": [
+   {
+    "x": 1372,
+    "y": 2294,
+    "z": 0,
+    "map": 0,
+    "name": "Spiritwood",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1372,
+    "y": 2294,
+    "z": 0,
+    "map": 1,
+    "name": "Spiritwood",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "19,23": [
+   {
+    "x": 1948,
+    "y": 2320,
+    "z": 0,
+    "map": 0,
+    "name": "Fens of the Dead",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1948,
+    "y": 2320,
+    "z": 0,
+    "map": 1,
+    "name": "Fens of the Dead",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "18,24": [
+   {
+    "x": 1824,
+    "y": 2415,
+    "z": 0,
+    "map": 0,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1824,
+    "y": 2415,
+    "z": 0,
+    "map": 1,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "58,24": [
+   {
+    "x": 5855,
+    "y": 2469,
+    "z": 0,
+    "map": 0,
+    "name": "Wyvern Isle",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 5855,
+    "y": 2469,
+    "z": 0,
+    "map": 1,
+    "name": "Wyvern Isle",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "16,24": [
+   {
+    "x": 1680,
+    "y": 2471,
+    "z": 0,
+    "map": 0,
+    "name": "Guard Outpost",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1680,
+    "y": 2471,
+    "z": 0,
+    "map": 1,
+    "name": "Guard Outpost",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "57,25": [
+   {
+    "x": 5706,
+    "y": 2534,
+    "z": 0,
+    "map": 0,
+    "name": "Reb'Gab Haras",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 5706,
+    "y": 2534,
+    "z": 0,
+    "map": 1,
+    "name": "Reb'Gab Haras",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "51,26": [
+   {
+    "x": 5164,
+    "y": 2606,
+    "z": 0,
+    "map": 0,
+    "name": "Wyvern Point",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 5164,
+    "y": 2606,
+    "z": 0,
+    "map": 1,
+    "name": "Wyvern Point",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "13,26": [
+   {
+    "x": 1336,
+    "y": 2636,
+    "z": 0,
+    "map": 0,
+    "name": "Dragonhame Mountain",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1336,
+    "y": 2636,
+    "z": 0,
+    "map": 1,
+    "name": "Dragonhame Mountain",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "10,26": [
+   {
+    "x": 1009,
+    "y": 2666,
+    "z": 0,
+    "map": 0,
+    "name": "Bridge of the Two Kings",
+    "category": "bridge",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1009,
+    "y": 2666,
+    "z": 0,
+    "map": 1,
+    "name": "Bridge of the Two Kings",
+    "category": "bridge",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "16,26": [
+   {
+    "x": 1682,
+    "y": 2675,
+    "z": 0,
+    "map": 0,
+    "name": "Guard Outpost",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1682,
+    "y": 2675,
+    "z": 0,
+    "map": 1,
+    "name": "Guard Outpost",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "35,26": [
+   {
+    "x": 3564,
+    "y": 2675,
+    "z": 0,
+    "map": 0,
+    "name": "Salt Lake",
+    "category": "water",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 3564,
+    "y": 2675,
+    "z": 0,
+    "map": 1,
+    "name": "Salt Lake",
+    "category": "water",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "20,27": [
+   {
+    "x": 2003,
+    "y": 2746,
+    "z": 0,
+    "map": 0,
+    "name": "Paladin Isle",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2003,
+    "y": 2746,
+    "z": 0,
+    "map": 1,
+    "name": "Paladin Isle",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "11,29": [
+   {
+    "x": 1152,
+    "y": 2958,
+    "z": 0,
+    "map": 0,
+    "name": "Lizardman Fort",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1152,
+    "y": 2958,
+    "z": 0,
+    "map": 1,
+    "name": "Lizardman Fort",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "16,29": [
+   {
+    "x": 1673,
+    "y": 2968,
+    "z": 0,
+    "map": 0,
+    "name": "Hidden Valley",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1673,
+    "y": 2968,
+    "z": 0,
+    "map": 1,
+    "name": "Hidden Valley",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "15,30": [
+   {
+    "x": 1528,
+    "y": 3068,
+    "z": 0,
+    "map": 0,
+    "name": "Southern Jungle",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1528,
+    "y": 3068,
+    "z": 0,
+    "map": 1,
+    "name": "Southern Jungle",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "44,31": [
+   {
+    "x": 4459,
+    "y": 3106,
+    "z": 0,
+    "map": 0,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 4459,
+    "y": 3106,
+    "z": 0,
+    "map": 1,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "10,31": [
+   {
+    "x": 1055,
+    "y": 3137,
+    "z": 0,
+    "map": 0,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1055,
+    "y": 3137,
+    "z": 0,
+    "map": 1,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1081,
+    "y": 3155,
+    "z": 0,
+    "map": 0,
+    "name": "Dragon Isle",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1081,
+    "y": 3155,
+    "z": 0,
+    "map": 1,
+    "name": "Dragon Isle",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "45,31": [
+   {
+    "x": 4540,
+    "y": 3192,
+    "z": 0,
+    "map": 0,
+    "name": "Solitary Mountain",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 4540,
+    "y": 3192,
+    "z": 0,
+    "map": 1,
+    "name": "Solitary Mountain",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "17,32": [
+   {
+    "x": 1728,
+    "y": 3200,
+    "z": 0,
+    "map": 0,
+    "name": "Hart Lake",
+    "category": "water",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1728,
+    "y": 3200,
+    "z": 0,
+    "map": 1,
+    "name": "Hart Lake",
+    "category": "water",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "18,32": [
+   {
+    "x": 1846,
+    "y": 3203,
+    "z": 0,
+    "map": 0,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1846,
+    "y": 3203,
+    "z": 0,
+    "map": 1,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "15,32": [
+   {
+    "x": 1566,
+    "y": 3212,
+    "z": 0,
+    "map": 0,
+    "name": "Northpeak",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1566,
+    "y": 3212,
+    "z": 0,
+    "map": 1,
+    "name": "Northpeak",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "53,32": [
+   {
+    "x": 5388,
+    "y": 3230,
+    "z": 0,
+    "map": 0,
+    "name": "Haunted Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 5388,
+    "y": 3230,
+    "z": 0,
+    "map": 1,
+    "name": "Haunted Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "16,32": [
+   {
+    "x": 1616,
+    "y": 3296,
+    "z": 0,
+    "map": 0,
+    "name": "Southpeak",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1616,
+    "y": 3296,
+    "z": 0,
+    "map": 1,
+    "name": "Southpeak",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "18,33": [
+   {
+    "x": 1848,
+    "y": 3332,
+    "z": 0,
+    "map": 0,
+    "name": "Southern Jungle",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1848,
+    "y": 3332,
+    "z": 0,
+    "map": 1,
+    "name": "Southern Jungle",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "21,33": [
+   {
+    "x": 2178,
+    "y": 3367,
+    "z": 0,
+    "map": 0,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2178,
+    "y": 3367,
+    "z": 0,
+    "map": 1,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "16,33": [
+   {
+    "x": 1608,
+    "y": 3372,
+    "z": 0,
+    "map": 0,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1608,
+    "y": 3372,
+    "z": 0,
+    "map": 1,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "17,33": [
+   {
+    "x": 1736,
+    "y": 3378,
+    "z": 0,
+    "map": 0,
+    "name": "Palm Grove",
+    "category": "scenic",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1736,
+    "y": 3378,
+    "z": 0,
+    "map": 1,
+    "name": "Palm Grove",
+    "category": "scenic",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "20,33": [
+   {
+    "x": 2023,
+    "y": 3382,
+    "z": 0,
+    "map": 0,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2023,
+    "y": 3382,
+    "z": 0,
+    "map": 1,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "19,34": [
+   {
+    "x": 1928,
+    "y": 3420,
+    "z": 0,
+    "map": 0,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1928,
+    "y": 3420,
+    "z": 0,
+    "map": 1,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "23,34": [
+   {
+    "x": 2355,
+    "y": 3431,
+    "z": 0,
+    "map": 0,
+    "name": "Bald Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2355,
+    "y": 3431,
+    "z": 0,
+    "map": 1,
+    "name": "Bald Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "17,34": [
+   {
+    "x": 1747,
+    "y": 3439,
+    "z": 0,
+    "map": 0,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1747,
+    "y": 3439,
+    "z": 0,
+    "map": 1,
+    "name": "Ruins",
+    "category": "ruins",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "46,34": [
+   {
+    "x": 4618,
+    "y": 3458,
+    "z": 0,
+    "map": 0,
+    "name": "Isle of the Avatar",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 4618,
+    "y": 3458,
+    "z": 0,
+    "map": 1,
+    "name": "Isle of the Avatar",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "11,35": [
+   {
+    "x": 1140,
+    "y": 3524,
+    "z": 0,
+    "map": 0,
+    "name": "North Jhelom Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1140,
+    "y": 3524,
+    "z": 0,
+    "map": 1,
+    "name": "North Jhelom Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "29,35": [
+   {
+    "x": 2962,
+    "y": 3537,
+    "z": 0,
+    "map": 0,
+    "name": "Isle of Deeds",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2962,
+    "y": 3537,
+    "z": 0,
+    "map": 1,
+    "name": "Isle of Deeds",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "45,35": [
+   {
+    "x": 4593,
+    "y": 3565,
+    "z": 0,
+    "map": 0,
+    "name": "Fire Temple",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 4593,
+    "y": 3565,
+    "z": 0,
+    "map": 1,
+    "name": "Fire Temple",
+    "category": "landmark",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "24,35": [
+   {
+    "x": 2461,
+    "y": 3583,
+    "z": 0,
+    "map": 0,
+    "name": "Temple Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2461,
+    "y": 3583,
+    "z": 0,
+    "map": 1,
+    "name": "Temple Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "21,36": [
+   {
+    "x": 2130,
+    "y": 3616,
+    "z": 0,
+    "map": 0,
+    "name": "Cape of Heroes",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2130,
+    "y": 3616,
+    "z": 0,
+    "map": 1,
+    "name": "Cape of Heroes",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "46,36": [
+   {
+    "x": 4652,
+    "y": 3656,
+    "z": 0,
+    "map": 0,
+    "name": "Rock Ridge",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 4652,
+    "y": 3656,
+    "z": 0,
+    "map": 1,
+    "name": "Rock Ridge",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "14,36": [
+   {
+    "x": 1432,
+    "y": 3670,
+    "z": 0,
+    "map": 0,
+    "name": "Valorian Isles",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1432,
+    "y": 3670,
+    "z": 0,
+    "map": 1,
+    "name": "Valorian Isles",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "44,37": [
+   {
+    "x": 4484,
+    "y": 3732,
+    "z": 0,
+    "map": 0,
+    "name": "Lava Pool",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 4484,
+    "y": 3732,
+    "z": 0,
+    "map": 1,
+    "name": "Lava Pool",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "47,37": [
+   {
+    "x": 4740,
+    "y": 3736,
+    "z": 0,
+    "map": 0,
+    "name": "Codex Mountain",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 4740,
+    "y": 3736,
+    "z": 0,
+    "map": 1,
+    "name": "Codex Mountain",
+    "category": "terrain",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "21,39": [
+   {
+    "x": 2145,
+    "y": 3961,
+    "z": 0,
+    "map": 0,
+    "name": "Amoeba Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2145,
+    "y": 3961,
+    "z": 0,
+    "map": 1,
+    "name": "Amoeba Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "24,39": [
+   {
+    "x": 2481,
+    "y": 3967,
+    "z": 0,
+    "map": 0,
+    "name": "Valor Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 2481,
+    "y": 3967,
+    "z": 0,
+    "map": 1,
+    "name": "Valor Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ],
+  "14,39": [
+   {
+    "x": 1440,
+    "y": 3998,
+    "z": 0,
+    "map": 0,
+    "name": "South Jhelom Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   },
+   {
+    "x": 1440,
+    "y": 3998,
+    "z": 0,
+    "map": 1,
+    "name": "South Jhelom Island",
+    "category": "island",
+    "color": "yellow",
+    "major": true
+   }
+  ]
+ }
+}

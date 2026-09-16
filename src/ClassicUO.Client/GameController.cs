@@ -147,10 +147,14 @@ namespace ClassicUO
             SetScene(new LoginScene(UO.World));
 #endif
             SetWindowPositionBySettings();
+
+            Agent.AgentHost.Start();
         }
 
         protected override void UnloadContent()
         {
+            Agent.AgentHost.Instance?.Dispose();
+
             SDL_GetWindowBordersSize(Window.Handle, out int top, out int left, out _, out _);
 
             Settings.GlobalSettings.WindowPosition = new Point(
@@ -388,6 +392,13 @@ namespace ClassicUO
             Time.Ticks = (uint)gameTime.TotalGameTime.TotalMilliseconds;
             Time.Delta = (float)gameTime.ElapsedGameTime.TotalSeconds;
 
+            Agent.HeadlessWindow.EnsureInitialHide(Window.Handle);
+
+            // Run CLI-issued work here, on the game thread, before any packets are read this frame.
+            // Nothing outside the game thread may touch NetClient or World: Send() encrypts with
+            // streaming, order-dependent cipher state outside its own lock.
+            Agent.AgentHost.Instance?.PumpGameThread();
+
             Mouse.Update();
 
             var data = NetClient.Socket.CollectAvailableData();
@@ -427,7 +438,17 @@ namespace ClassicUO
             ];
             _suppressedDraw = false;
 
-            if (_totalElapsed > x)
+            if (Agent.HeadlessWindow.IsHidden)
+            {
+                _suppressedDraw = true;
+                SuppressDraw();
+
+                if (!gameTime.IsRunningSlowly)
+                {
+                    Thread.Sleep(1);
+                }
+            }
+            else if (_totalElapsed > x)
             {
                 _totalElapsed %= x;
             }

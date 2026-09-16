@@ -50,6 +50,9 @@ namespace ClassicUO.Game.UI.Gumps
         public uint ID1 { get; }
         public uint ID2 { get; }
 
+        /// <summary>The other trader's name, as sent by the server when the window opened.</summary>
+        public string Name => _name;
+
         public uint Gold
         {
             get => _gold;

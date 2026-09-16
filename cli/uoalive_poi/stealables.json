@@ -1,0 +1,1501 @@
+{
+ "source": "Stealables.map",
+ "gridSize": 100,
+ "bounds": {
+  "minX": 5,
+  "maxX": 6440,
+  "minY": 7,
+  "maxY": 2700
+ },
+ "pointCount": 153,
+ "cellCount": 55,
+ "cells": {
+  "5,14": [
+   {
+    "x": 542,
+    "y": 1494,
+    "z": 0,
+    "map": 5,
+    "name": "Stretched Dinosaur Hide (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "4,15": [
+   {
+    "x": 425,
+    "y": 1575,
+    "z": 0,
+    "map": 5,
+    "name": "Dragon Turtle Hatchling Net (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "1,18": [
+   {
+    "x": 175,
+    "y": 1808,
+    "z": 0,
+    "map": 5,
+    "name": "Carved Myrmydex Glyph (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "3,18": [
+   {
+    "x": 396,
+    "y": 1843,
+    "z": 0,
+    "map": 5,
+    "name": "Hand Carved White Tiger Figurine (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "6,16": [
+   {
+    "x": 630,
+    "y": 1689,
+    "z": 0,
+    "map": 5,
+    "name": "Waku on a Spit (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "6,21": [
+   {
+    "x": 689,
+    "y": 2125,
+    "z": 0,
+    "map": 5,
+    "name": "Sacred Lava Rock (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "3,0": [
+   {
+    "x": 317,
+    "y": 56,
+    "z": 0,
+    "map": 3,
+    "name": "Rock [Rarity: 1] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 360,
+    "y": 31,
+    "z": 0,
+    "map": 3,
+    "name": "Skull Candle [Rarity: 1] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 347,
+    "y": 44,
+    "z": 0,
+    "map": 3,
+    "name": "Skinned Goat [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 354,
+    "y": 36,
+    "z": 0,
+    "map": 3,
+    "name": "Skinned Deer [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 396,
+    "y": 8,
+    "z": 0,
+    "map": 3,
+    "name": "Zyronic Claw [Rarity: 10] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "4,0": [
+   {
+    "x": 432,
+    "y": 16,
+    "z": 0,
+    "map": 3,
+    "name": "Stretched Hide [Rarity: 1] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 489,
+    "y": 9,
+    "z": 0,
+    "map": 3,
+    "name": "Brazier [Rarity: 2] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 471,
+    "y": 96,
+    "z": 0,
+    "map": 3,
+    "name": "Lamp Post [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 423,
+    "y": 28,
+    "z": 0,
+    "map": 3,
+    "name": "Cocoon [Rarity: 7] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 423,
+    "y": 38,
+    "z": 0,
+    "map": 3,
+    "name": "Egg Case [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 497,
+    "y": 57,
+    "z": 0,
+    "map": 3,
+    "name": "Gruesome Standard [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 403,
+    "y": 31,
+    "z": 0,
+    "map": 3,
+    "name": "Leather Tunic [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 475,
+    "y": 23,
+    "z": 0,
+    "map": 3,
+    "name": "Studded Tunic [Rarity: 7] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 447,
+    "y": 9,
+    "z": 0,
+    "map": 3,
+    "name": "Studded Leggings [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 433,
+    "y": 11,
+    "z": 0,
+    "map": 3,
+    "name": "Saddle [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 467,
+    "y": 92,
+    "z": 0,
+    "map": 3,
+    "name": "The Inquisitor's Resolution [Rarity: 10] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "4,1": [
+   {
+    "x": 421,
+    "y": 198,
+    "z": 0,
+    "map": 3,
+    "name": "Books [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 431,
+    "y": 189,
+    "z": 0,
+    "map": 3,
+    "name": "Books [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 435,
+    "y": 196,
+    "z": 0,
+    "map": 3,
+    "name": "Books Face Down [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 445,
+    "y": 119,
+    "z": 0,
+    "map": 3,
+    "name": "Hanging Platemail Leggings [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 421,
+    "y": 197,
+    "z": 0,
+    "map": 3,
+    "name": "Hanging Platemail Arms [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "2,2": [
+   {
+    "x": 274,
+    "y": 231,
+    "z": 0,
+    "map": 3,
+    "name": "Hanging Platemail Tunic [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "3,3": [
+   {
+    "x": 378,
+    "y": 371,
+    "z": 0,
+    "map": 3,
+    "name": "Bookshelf [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 369,
+    "y": 372,
+    "z": 0,
+    "map": 3,
+    "name": "Bottle [Rarity: 1] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 378,
+    "y": 372,
+    "z": 0,
+    "map": 3,
+    "name": "Damaged Books [Rarity: 1] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 369,
+    "y": 389,
+    "z": 0,
+    "map": 3,
+    "name": "Blade of The Righteous [Rarity: 10] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 381,
+    "y": 375,
+    "z": 0,
+    "map": 3,
+    "name": "Bloody Water [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "2,0": [
+   {
+    "x": 262,
+    "y": 91,
+    "z": 0,
+    "map": 3,
+    "name": "Titan's Hammer [Rarity: 10] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 263,
+    "y": 28,
+    "z": 0,
+    "map": 3,
+    "name": "Incense Burner [Rarity: 12] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "4,3": [
+   {
+    "x": 487,
+    "y": 360,
+    "z": 0,
+    "map": 3,
+    "name": "Ruined Painting [Rarity: 12] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 487,
+    "y": 364,
+    "z": 0,
+    "map": 3,
+    "name": "Arcane Table [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 489,
+    "y": 369,
+    "z": 0,
+    "map": 3,
+    "name": "TarotCards [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 497,
+    "y": 369,
+    "z": 0,
+    "map": 3,
+    "name": "Backpack [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "0,1": [
+   {
+    "x": 18,
+    "y": 110,
+    "z": 0,
+    "map": 3,
+    "name": "Basket [Rarity: 1] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 66,
+    "y": 114,
+    "z": 0,
+    "map": 3,
+    "name": "Basket [Rarity: 1] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "0,0": [
+   {
+    "x": 63,
+    "y": 12,
+    "z": 0,
+    "map": 3,
+    "name": "Basket [Rarity: 2] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 5,
+    "y": 29,
+    "z": 0,
+    "map": 3,
+    "name": "Basket [Rarity: 2] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 30,
+    "y": 81,
+    "z": 0,
+    "map": 3,
+    "name": "Basket [Rarity: 2] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 85,
+    "y": 13,
+    "z": 0,
+    "map": 3,
+    "name": "Urn [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 94,
+    "y": 7,
+    "z": 0,
+    "map": 3,
+    "name": "Man Statuette [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 84,
+    "y": 40,
+    "z": 0,
+    "map": 3,
+    "name": "Tower Lantern [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "1,0": [
+   {
+    "x": 115,
+    "y": 7,
+    "z": 0,
+    "map": 3,
+    "name": "Urn [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 110,
+    "y": 53,
+    "z": 0,
+    "map": 3,
+    "name": "Sculpture [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 108,
+    "y": 37,
+    "z": 0,
+    "map": 3,
+    "name": "Sculpture [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 121,
+    "y": 14,
+    "z": 0,
+    "map": 3,
+    "name": "Teapot [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "1,1": [
+   {
+    "x": 121,
+    "y": 115,
+    "z": 0,
+    "map": 3,
+    "name": "Teapot [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "1,6": [
+   {
+    "x": 113,
+    "y": 640,
+    "z": 0,
+    "map": 3,
+    "name": "Basket [Rarity: 1] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 107,
+    "y": 688,
+    "z": 0,
+    "map": 3,
+    "name": "Bowls Horizontal [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 103,
+    "y": 691,
+    "z": 0,
+    "map": 3,
+    "name": "ZenRock [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 119,
+    "y": 672,
+    "z": 0,
+    "map": 3,
+    "name": "Painting [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 124,
+    "y": 624,
+    "z": 0,
+    "map": 3,
+    "name": "Painting [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 146,
+    "y": 649,
+    "z": 0,
+    "map": 3,
+    "name": "Painting [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 187,
+    "y": 643,
+    "z": 0,
+    "map": 3,
+    "name": "Painting [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 146,
+    "y": 623,
+    "z": 0,
+    "map": 3,
+    "name": "Painting [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 112,
+    "y": 676,
+    "z": 0,
+    "map": 3,
+    "name": "Sake [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 135,
+    "y": 614,
+    "z": 0,
+    "map": 3,
+    "name": "Sword Display [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 179,
+    "y": 652,
+    "z": 0,
+    "map": 3,
+    "name": "Sword Display [Rarity: 6] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 118,
+    "y": 627,
+    "z": 0,
+    "map": 3,
+    "name": "Sword Display [Rarity: 6] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 182,
+    "y": 669,
+    "z": 0,
+    "map": 3,
+    "name": "Sword Display [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 162,
+    "y": 647,
+    "z": 0,
+    "map": 3,
+    "name": "Sword Display [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 175,
+    "y": 606,
+    "z": 0,
+    "map": 3,
+    "name": "Sword Display [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 157,
+    "y": 608,
+    "z": 0,
+    "map": 3,
+    "name": "Sword Display [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 102,
+    "y": 677,
+    "z": 0,
+    "map": 3,
+    "name": "Dolphin Statue [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 178,
+    "y": 629,
+    "z": 0,
+    "map": 3,
+    "name": "Man Statuette [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 140,
+    "y": 694,
+    "z": 0,
+    "map": 3,
+    "name": "Basket [Rarity: 2] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "1,3": [
+   {
+    "x": 102,
+    "y": 355,
+    "z": 0,
+    "map": 3,
+    "name": "Basket [Rarity: 1] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 100,
+    "y": 357,
+    "z": 0,
+    "map": 3,
+    "name": "ZenRock [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 103,
+    "y": 336,
+    "z": 0,
+    "map": 3,
+    "name": "Painting [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "0,3": [
+   {
+    "x": 99,
+    "y": 370,
+    "z": 0,
+    "map": 3,
+    "name": "Basket [Rarity: 2] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 99,
+    "y": 372,
+    "z": 0,
+    "map": 3,
+    "name": "Fan [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 92,
+    "y": 326,
+    "z": 0,
+    "map": 3,
+    "name": "Bowls Vertical [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 59,
+    "y": 381,
+    "z": 0,
+    "map": 3,
+    "name": "Painting [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 59,
+    "y": 392,
+    "z": 0,
+    "map": 3,
+    "name": "Painting [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 90,
+    "y": 326,
+    "z": 0,
+    "map": 3,
+    "name": "Painting [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 99,
+    "y": 354,
+    "z": 0,
+    "map": 3,
+    "name": "Painting [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "0,4": [
+   {
+    "x": 73,
+    "y": 473,
+    "z": 0,
+    "map": 3,
+    "name": "Fan [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 50,
+    "y": 475,
+    "z": 0,
+    "map": 3,
+    "name": "Triple Fan [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 97,
+    "y": 470,
+    "z": 0,
+    "map": 3,
+    "name": "ZenRock [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 84,
+    "y": 401,
+    "z": 0,
+    "map": 3,
+    "name": "Painting [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 50,
+    "y": 482,
+    "z": 0,
+    "map": 3,
+    "name": "Sword Display [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 61,
+    "y": 499,
+    "z": 0,
+    "map": 3,
+    "name": "Sword Display [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 90,
+    "y": 483,
+    "z": 0,
+    "map": 3,
+    "name": "Flowers [Rarity: 7] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "1,4": [
+   {
+    "x": 107,
+    "y": 483,
+    "z": 0,
+    "map": 3,
+    "name": "Triple Fan [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 107,
+    "y": 460,
+    "z": 0,
+    "map": 3,
+    "name": "Bowl [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 100,
+    "y": 488,
+    "z": 0,
+    "map": 3,
+    "name": "Sword Display [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "0,5": [
+   {
+    "x": 90,
+    "y": 502,
+    "z": 0,
+    "map": 3,
+    "name": "Cups [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 71,
+    "y": 562,
+    "z": 0,
+    "map": 3,
+    "name": "Dolphin Statue [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "9,3": [
+   {
+    "x": 916,
+    "y": 374,
+    "z": 0,
+    "map": 5,
+    "name": "Book of Truth [Rarity: 6] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 948,
+    "y": 393,
+    "z": 0,
+    "map": 5,
+    "name": "Gargish Memorial Statue [Rarity: 7] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "3,6": [
+   {
+    "x": 368,
+    "y": 605,
+    "z": 0,
+    "map": 5,
+    "name": "Gargish Bentas Vase [Rarity: 7] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 345,
+    "y": 621,
+    "z": 0,
+    "map": 5,
+    "name": "LightIn The Void [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "7,4": [
+   {
+    "x": 717,
+    "y": 416,
+    "z": 0,
+    "map": 5,
+    "name": "Dying Plant [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 785,
+    "y": 442,
+    "z": 0,
+    "map": 5,
+    "name": "Large Dying Plant [Rarity: 6] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "8,2": [
+   {
+    "x": 849,
+    "y": 281,
+    "z": 0,
+    "map": 5,
+    "name": "Gargish Luck Totem [Rarity: 6] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "7,7": [
+   {
+    "x": 715,
+    "y": 782,
+    "z": 0,
+    "map": 5,
+    "name": "Gargish Protective Totem [Rarity: 6] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "5,6": [
+   {
+    "x": 555,
+    "y": 670,
+    "z": 0,
+    "map": 5,
+    "name": "Gargish Knowledge Totem [Rarity: 6] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "9,5": [
+   {
+    "x": 951,
+    "y": 542,
+    "z": 0,
+    "map": 5,
+    "name": "Large Pewter Bowl [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 926,
+    "y": 598,
+    "z": 0,
+    "map": 5,
+    "name": "Pushme Pullyu [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "5,8": [
+   {
+    "x": 585,
+    "y": 853,
+    "z": 0,
+    "map": 5,
+    "name": "Staff of Resonance [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "8,6": [
+   {
+    "x": 843,
+    "y": 665,
+    "z": 0,
+    "map": 5,
+    "name": "Valkyries Glaive [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "8,5": [
+   {
+    "x": 877,
+    "y": 527,
+    "z": 0,
+    "map": 5,
+    "name": "Crown of Arcane Temperament [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "6,4": [
+   {
+    "x": 670,
+    "y": 441,
+    "z": 0,
+    "map": 5,
+    "name": "Gargish Portrait [Rarity: 7] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "6,8": [
+   {
+    "x": 669,
+    "y": 819,
+    "z": 0,
+    "map": 5,
+    "name": "Gargish Traditional Vase [Rarity: 6] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "10,11": [
+   {
+    "x": 1046,
+    "y": 1106,
+    "z": 0,
+    "map": 5,
+    "name": "Mysterious Supper [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 1049,
+    "y": 1109,
+    "z": 0,
+    "map": 5,
+    "name": "Bloody Spoon [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 1089,
+    "y": 1126,
+    "z": 0,
+    "map": 5,
+    "name": "Dried Up Ink Well [Rarity: 7] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 1017,
+    "y": 1150,
+    "z": 0,
+    "map": 5,
+    "name": "Rotted Oars [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 1066,
+    "y": 1193,
+    "z": 0,
+    "map": 5,
+    "name": "Tyballs Flask Stand [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 1047,
+    "y": 1108,
+    "z": 0,
+    "map": 5,
+    "name": "Mystics Guard [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "11,11": [
+   {
+    "x": 1137,
+    "y": 1134,
+    "z": 0,
+    "map": 5,
+    "name": "Remnants of Meat Loaf [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 1131,
+    "y": 1128,
+    "z": 0,
+    "map": 5,
+    "name": "Block And Tackle [Rarity: 9] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "11,12": [
+   {
+    "x": 1134,
+    "y": 1204,
+    "z": 0,
+    "map": 5,
+    "name": "Half Eaten Supper [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "12,10": [
+   {
+    "x": 1239,
+    "y": 1019,
+    "z": 0,
+    "map": 5,
+    "name": "Jugs of Goblin Rotgut [Rarity: 3] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 1210,
+    "y": 1035,
+    "z": 0,
+    "map": 5,
+    "name": "Bottles of Spoiled Wine (2) [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "10,10": [
+   {
+    "x": 1015,
+    "y": 1013,
+    "z": 0,
+    "map": 5,
+    "name": "Stolen Bottles of Liquor (3) [Rarity: 7] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 1015,
+    "y": 1029,
+    "z": 0,
+    "map": 5,
+    "name": "Stolen Bottles of Liquor (2) [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 1015,
+    "y": 1026,
+    "z": 0,
+    "map": 5,
+    "name": "Stolen Bottles of Liquor (2) [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 1015,
+    "y": 1018,
+    "z": 0,
+    "map": 5,
+    "name": "Battered Pan [Rarity: 6] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "10,9": [
+   {
+    "x": 1031,
+    "y": 998,
+    "z": 0,
+    "map": 5,
+    "name": "Stolen Bottles of Liquor (4) [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 1077,
+    "y": 975,
+    "z": 0,
+    "map": 5,
+    "name": "Navery's Web (1) [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 1087,
+    "y": 983,
+    "z": 0,
+    "map": 5,
+    "name": "Navery's Web (2) [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 1007,
+    "y": 975,
+    "z": 0,
+    "map": 5,
+    "name": "Rusted Pan [Rarity: 6] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "11,10": [
+   {
+    "x": 1188,
+    "y": 1015,
+    "z": 0,
+    "map": 5,
+    "name": "Bottles of Spoiled Wine (3) [Rarity: 6] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 1146,
+    "y": 1011,
+    "z": 0,
+    "map": 5,
+    "name": "Navery's Web (2) [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "12,9": [
+   {
+    "x": 1226,
+    "y": 963,
+    "z": 0,
+    "map": 5,
+    "name": "Bottles of Spoiled Wine (4) [Rarity: 7] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 1227,
+    "y": 964,
+    "z": 0,
+    "map": 5,
+    "name": "Fake Copper Ingots [Rarity: 7] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 1226,
+    "y": 966,
+    "z": 0,
+    "map": 5,
+    "name": "Priceless Treasure [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "10,8": [
+   {
+    "x": 1064,
+    "y": 868,
+    "z": 0,
+    "map": 5,
+    "name": "Navery's Web (4) [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 1080,
+    "y": 847,
+    "z": 0,
+    "map": 5,
+    "name": "Navery's Web (3) [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "11,9": [
+   {
+    "x": 1119,
+    "y": 974,
+    "z": 0,
+    "map": 5,
+    "name": "Navery's Web (1) [Rarity: 5] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "63,17": [
+   {
+    "x": 6313,
+    "y": 1753,
+    "z": 0,
+    "map": 1,
+    "name": "Stern Anchor of BMV Ararat [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 6303,
+    "y": 1756,
+    "z": 0,
+    "map": 1,
+    "name": "Ships Bell of BMV Ararat [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "63,16": [
+   {
+    "x": 6303,
+    "y": 1664,
+    "z": 0,
+    "map": 1,
+    "name": "Figurehead of BMV Ararat [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "57,5": [
+   {
+    "x": 5790,
+    "y": 579,
+    "z": 0,
+    "map": 0,
+    "name": "Blanket of Darkness [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 5703,
+    "y": 521,
+    "z": 0,
+    "map": 0,
+    "name": "Torture Rack South [Rarity: 10] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "58,5": [
+   {
+    "x": 5865,
+    "y": 559,
+    "z": 0,
+    "map": 0,
+    "name": "Blanket of Darkness [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 5832,
+    "y": 576,
+    "z": 0,
+    "map": 0,
+    "name": "Blanket of Darkness [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "56,5": [
+   {
+    "x": 5680,
+    "y": 537,
+    "z": 0,
+    "map": 0,
+    "name": "Torture Rack East [Rarity: 10] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "1,16": [
+   {
+    "x": 168,
+    "y": 1609,
+    "z": 0,
+    "map": 3,
+    "name": "Academic Books [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 166,
+    "y": 1642,
+    "z": 0,
+    "map": 3,
+    "name": "Academic Books [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "0,16": [
+   {
+    "x": 80,
+    "y": 1649,
+    "z": 0,
+    "map": 3,
+    "name": "Academic Books [Rarity: 8] (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "64,27": [
+   {
+    "x": 6440,
+    "y": 2700,
+    "z": 0,
+    "map": 0,
+    "name": "A Painting from the Personal Collection of the King (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 6440,
+    "y": 2700,
+    "z": 0,
+    "map": 1,
+    "name": "A Painting from the Personal Collection of the King (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "64,26": [
+   {
+    "x": 6435,
+    "y": 2605,
+    "z": 0,
+    "map": 0,
+    "name": "A Gilded Statue from the Personal Collection of the King (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 6435,
+    "y": 2605,
+    "z": 0,
+    "map": 1,
+    "name": "A Gilded Statue from the Personal Collection of the King (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ],
+  "62,26": [
+   {
+    "x": 6299,
+    "y": 2673,
+    "z": 0,
+    "map": 0,
+    "name": "A Painting from the Personal Collection of the King (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   },
+   {
+    "x": 6299,
+    "y": 2673,
+    "z": 0,
+    "map": 1,
+    "name": "A Painting from the Personal Collection of the King (Stealable)",
+    "category": "stealable",
+    "color": "yellow"
+   }
+  ]
+ }
+}

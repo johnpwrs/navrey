@@ -49,6 +49,13 @@ namespace ClassicUO.Network
 
         public void Add(byte id, OnPacketBufferReader handler) => _handlers[id] = handler;
 
+        /// <summary>
+        /// The handler currently installed for <paramref name="id"/>, or null. Lets an observer
+        /// wrap a handler (capture, then Add a delegate that calls through) instead of editing the
+        /// handlers themselves.
+        /// </summary>
+        public OnPacketBufferReader Get(byte id) => _handlers[id];
+
         private byte[] _readingBuffer = new byte[4096];
         private readonly PacketLogger _packetLogger = new PacketLogger();
         private readonly CircularBuffer _buffer = new CircularBuffer();

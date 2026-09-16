@@ -1,0 +1,9 @@
+# UO client data (~737MB of copyrighted game files from your own client install).
+# Point "uo_directory" in the repo-root settings.json at it instead of committing it.
+uodata/
+
+# Runtime artifacts of the daemon / viewer.
+viewer/
+*.jsonl
+
+.DS_Store

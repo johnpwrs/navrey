@@ -1,0 +1,142 @@
+#!/usr/bin/env bash
+# Start the ClassicUO client and drop into the interactive CLI prompt.
+#
+#   cli/navrey                  game window + navrey> prompt
+#   cli/navrey --headless       no window, just the prompt
+#   cli/navrey --attach         don't start anything; attach to a client already running
+#   cli/navrey --no-autologin   start the client but stop at the login screen instead of
+#                                 driving straight through it with .env's credentials
+#   cli/navrey <command> [args]  run one command against the running client and print its output
+#                                 (--timeout <secs> before it bounds the wait; default 30)
+#
+# Configuration comes from settings.json and .env at the repo root, nothing else.
+#
+# The client runs in the background and keeps running when you leave the prompt, so you can
+# reattach with `cli/navrey --attach` without dropping the connection.
+set -euo pipefail
+
+here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+root="$(cd "$here/.." && pwd)"
+
+mode="-agent"
+attach=0
+passthrough=()
+noautologin=0
+
+while [ $# -gt 0 ]; do
+    arg="$1"; shift
+    if [ "${#passthrough[@]}" -gt 0 ]; then
+        # Everything after the command word belongs to that command.
+        passthrough+=("$arg")
+        continue
+    fi
+    case "$arg" in
+        --headless)      mode="-headless" ;;
+        --timeout)       passthrough+=("--timeout" "${1:?--timeout needs a value}"); shift; attach=1 ;;
+        --attach)        attach=1 ;;
+        --no-autologin)  noautologin=1 ;;
+        -h|--help)
+            sed -n '2,12p' "${BASH_SOURCE[0]}" | sed 's/^# \{0,1\}//'
+            exit 0
+            ;;
+        -*)
+            echo "unknown option: $arg" >&2
+            exit 2
+            ;;
+        *)
+            # A bare word is a one-shot command for the front end; it never starts a client.
+            passthrough+=("$arg")
+            attach=1
+            ;;
+    esac
+done
+
+if [ -d "$HOME/.dotnet/shared/Microsoft.NETCore.App" ]; then
+    export DOTNET_ROOT="$HOME/.dotnet"
+fi
+
+dotnet_bin="$HOME/.dotnet/dotnet"
+[ -x "$dotnet_bin" ] || dotnet_bin="$(command -v dotnet)"
+
+cmdfile="${CUO_CMD_FILE:-/tmp/cuocmd}"
+logfile="${CUO_LOG_FILE:-/tmp/cuolog}"
+
+client_running() {
+    local pidfile="$cmdfile.pid"
+    [ -f "$pidfile" ] && kill -0 "$(cat "$pidfile")" 2>/dev/null
+}
+
+if [ "$attach" -eq 0 ] && client_running; then
+    echo "A client is already running (pid $(cat "$cmdfile.pid")); attaching to it."
+    echo "Use 'cli/navrey --attach' to skip this check, or stop it first."
+    attach=1
+fi
+
+if [ "$attach" -eq 0 ]; then
+    # Everything the client needs comes from two files at the repo root and nowhere else:
+    # settings.json (shard, port, client version, UO data dir, POI dir, shard/character choice)
+    # and .env (UO_USER / UO_PASS only). The client resolves both from its working directory,
+    # so run it from the root regardless of where this script was invoked.
+    cd "$root"
+
+    if [ ! -f "$root/settings.json" ]; then
+        echo "No settings.json at $root." >&2
+        exit 2
+    fi
+
+    if [ ! -f "$root/.env" ]; then
+        echo "No .env at $root - copy .env.example and fill in UO_USER / UO_PASS." >&2
+        exit 2
+    fi
+
+    uodir="$(sed -n 's/.*"uo_directory": *"\([^"]*\)".*/\1/p' "$root/settings.json")"
+    if [ -n "$uodir" ] && [ ! -f "$uodir/tiledata.mul" ]; then
+        echo "UO data not found at $uodir (from settings.json)." >&2
+        exit 2
+    fi
+
+    echo "Starting client ($mode)..."
+
+    extra_args=()
+    [ "$noautologin" -eq 1 ] && extra_args+=(-autologin false)
+
+    nohup "$dotnet_bin" run --project "$root/src/ClassicUO.Client/ClassicUO.Client.csproj" -- \
+        -cmdfile "$cmdfile" \
+        -logfile "$logfile" \
+        "$mode" \
+        "${extra_args[@]+"${extra_args[@]}"}" \
+        > /tmp/cuostdout.log 2>&1 &
+    disown
+
+    if [ "$noautologin" -eq 1 ]; then
+        echo "Started with autologin/auto-character-select disabled - log in manually in the client window."
+    else
+        # Wait for login rather than guessing at a sleep.
+        printf 'Waiting for login'
+        for _ in $(seq 1 90); do
+            if [ -f "$logfile" ] && grep -q "Entered the world!" "$logfile" 2>/dev/null; then
+                echo " - done."
+                break
+            fi
+            printf '.'
+            sleep 1
+        done
+
+        if ! grep -q "Entered the world!" "$logfile" 2>/dev/null; then
+            echo
+            echo "Client did not reach the world in time. Last output:" >&2
+            tail -15 "$logfile" 2>/dev/null || tail -15 /tmp/cuostdout.log >&2
+            exit 1
+        fi
+    fi
+fi
+
+# The .NET 10 runtime lives under ~/.dotnet on this machine while the apphost defaults to
+# /usr/local/share/dotnet, so DOTNET_ROOT (set above) is what lets the bare binary launch.
+bin="$here/bin/Debug/net10.0/navrey"
+if [ ! -x "$bin" ]; then
+    echo "navrey is not built yet - run:  dotnet build cli/Navrey.Cli.csproj" >&2
+    exit 2
+fi
+
+exec "$bin" --cmdfile "$cmdfile" --logfile "$logfile" "${passthrough[@]+"${passthrough[@]}"}"

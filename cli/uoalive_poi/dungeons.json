@@ -1,0 +1,5091 @@
+{
+ "source": "Dungeons.map",
+ "gridSize": 100,
+ "bounds": {
+  "minX": 10,
+  "maxX": 6589,
+  "minY": 11,
+  "maxY": 2478
+ },
+ "pointCount": 528,
+ "cellCount": 127,
+ "cells": {
+  "1,0": [
+   {
+    "x": 129,
+    "y": 11,
+    "z": 0,
+    "map": 2,
+    "name": "Fallen Rocks (No Passage)",
+    "category": "terrain",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 109,
+    "y": 46,
+    "z": 0,
+    "map": 2,
+    "name": "Laboratory",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 154,
+    "y": 89,
+    "z": 0,
+    "map": 2,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   }
+  ],
+  "55,0": [
+   {
+    "x": 5515,
+    "y": 11,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "moongate",
+    "color": "red"
+   },
+   {
+    "x": 5515,
+    "y": 11,
+    "z": 0,
+    "map": 1,
+    "name": "Up",
+    "category": "moongate",
+    "color": "red"
+   }
+  ],
+  "4,0": [
+   {
+    "x": 430,
+    "y": 17,
+    "z": 0,
+    "map": 2,
+    "name": "ClassRoom",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 461,
+    "y": 17,
+    "z": 0,
+    "map": 2,
+    "name": "ClassRoom",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 455,
+    "y": 71,
+    "z": 0,
+    "map": 2,
+    "name": "Kitchen",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 469,
+    "y": 95,
+    "z": 0,
+    "map": 3,
+    "name": "Lamp Post Room",
+    "category": "point",
+    "color": "red",
+    "major": true
+   }
+  ],
+  "58,0": [
+   {
+    "x": 5875,
+    "y": 19,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5875,
+    "y": 19,
+    "z": 0,
+    "map": 1,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   }
+  ],
+  "2,0": [
+   {
+    "x": 279,
+    "y": 20,
+    "z": 0,
+    "map": 2,
+    "name": "Laboratory",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 243,
+    "y": 26,
+    "z": 0,
+    "map": 2,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 237,
+    "y": 48,
+    "z": 0,
+    "map": 2,
+    "name": "Alchemy Workshop + Rifts",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 285,
+    "y": 66,
+    "z": 0,
+    "map": 2,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 285,
+    "y": 74,
+    "z": 0,
+    "map": 2,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 265,
+    "y": 85,
+    "z": 0,
+    "map": 2,
+    "name": "Library",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "54,0": [
+   {
+    "x": 5491,
+    "y": 20,
+    "z": 0,
+    "map": 0,
+    "name": "Down",
+    "category": "moongate",
+    "color": "red"
+   },
+   {
+    "x": 5491,
+    "y": 20,
+    "z": 0,
+    "map": 1,
+    "name": "Down",
+    "category": "moongate",
+    "color": "red"
+   }
+  ],
+  "21,0": [
+   {
+    "x": 2126,
+    "y": 22,
+    "z": 0,
+    "map": 2,
+    "name": "Throne Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 2188,
+    "y": 33,
+    "z": 0,
+    "map": 2,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 2169,
+    "y": 48,
+    "z": 0,
+    "map": 2,
+    "name": "Lich + Lich Lord",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 2120,
+    "y": 85,
+    "z": 0,
+    "map": 2,
+    "name": "Ritual Room",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "3,0": [
+   {
+    "x": 305,
+    "y": 24,
+    "z": 0,
+    "map": 2,
+    "name": "Workshop",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 370,
+    "y": 30,
+    "z": 0,
+    "map": 2,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 359,
+    "y": 41,
+    "z": 0,
+    "map": 2,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 336,
+    "y": 43,
+    "z": 0,
+    "map": 2,
+    "name": "Lecture Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 397,
+    "y": 69,
+    "z": 0,
+    "map": 2,
+    "name": "Barracks",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 309,
+    "y": 90,
+    "z": 0,
+    "map": 2,
+    "name": "Gathering Hall",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 365,
+    "y": 13,
+    "z": 0,
+    "map": 3,
+    "name": "Treasure Room (Poison Trap)",
+    "category": "point",
+    "color": "red"
+   },
+   {
+    "x": 354,
+    "y": 14,
+    "z": 0,
+    "map": 3,
+    "name": "Locks Behind You",
+    "category": "point",
+    "color": "red"
+   }
+  ],
+  "60,0": [
+   {
+    "x": 6054,
+    "y": 47,
+    "z": 0,
+    "map": 0,
+    "name": "Gargoyle Cage",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 6054,
+    "y": 47,
+    "z": 0,
+    "map": 1,
+    "name": "Gargoyle Cage",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 6057,
+    "y": 89,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 6057,
+    "y": 89,
+    "z": 0,
+    "map": 1,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   }
+  ],
+  "59,0": [
+   {
+    "x": 5905,
+    "y": 97,
+    "z": 0,
+    "map": 0,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5905,
+    "y": 97,
+    "z": 0,
+    "map": 1,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   }
+  ],
+  "56,1": [
+   {
+    "x": 5604,
+    "y": 102,
+    "z": 0,
+    "map": 0,
+    "name": "Down",
+    "category": "moongate",
+    "color": "red"
+   },
+   {
+    "x": 5604,
+    "y": 102,
+    "z": 0,
+    "map": 1,
+    "name": "Down",
+    "category": "moongate",
+    "color": "red"
+   }
+  ],
+  "21,1": [
+   {
+    "x": 2173,
+    "y": 116,
+    "z": 0,
+    "map": 2,
+    "name": "Conference Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 2174,
+    "y": 140,
+    "z": 0,
+    "map": 2,
+    "name": "Gates",
+    "category": "gate",
+    "color": "red"
+   },
+   {
+    "x": 2147,
+    "y": 141,
+    "z": 0,
+    "map": 2,
+    "name": "Gate",
+    "category": "gate",
+    "color": "red"
+   },
+   {
+    "x": 2187,
+    "y": 148,
+    "z": 0,
+    "map": 2,
+    "name": "Ritual Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 2110,
+    "y": 153,
+    "z": 0,
+    "map": 2,
+    "name": "Small Shrine Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 2184,
+    "y": 168,
+    "z": 0,
+    "map": 2,
+    "name": "Store Room",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "2,1": [
+   {
+    "x": 266,
+    "y": 129,
+    "z": 0,
+    "map": 2,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 273,
+    "y": 141,
+    "z": 0,
+    "map": 2,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   }
+  ],
+  "1,1": [
+   {
+    "x": 133,
+    "y": 130,
+    "z": 0,
+    "map": 2,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   }
+  ],
+  "22,1": [
+   {
+    "x": 2228,
+    "y": 141,
+    "z": 0,
+    "map": 2,
+    "name": "Laboratory",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 2219,
+    "y": 176,
+    "z": 0,
+    "map": 2,
+    "name": "Holding Room",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "60,1": [
+   {
+    "x": 6081,
+    "y": 145,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 6081,
+    "y": 145,
+    "z": 0,
+    "map": 1,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 6085,
+    "y": 178,
+    "z": 0,
+    "map": 0,
+    "name": "Balron Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 6085,
+    "y": 178,
+    "z": 0,
+    "map": 1,
+    "name": "Balron Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 6039,
+    "y": 193,
+    "z": 0,
+    "map": 0,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 6039,
+    "y": 193,
+    "z": 0,
+    "map": 1,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   }
+  ],
+  "57,1": [
+   {
+    "x": 5707,
+    "y": 146,
+    "z": 0,
+    "map": 0,
+    "name": "Down to Ice Fiend Lair",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5707,
+    "y": 146,
+    "z": 0,
+    "map": 1,
+    "name": "Down to Ice Fiend Lair",
+    "category": "down",
+    "color": "red"
+   }
+  ],
+  "55,1": [
+   {
+    "x": 5514,
+    "y": 147,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "moongate",
+    "color": "red"
+   },
+   {
+    "x": 5514,
+    "y": 147,
+    "z": 0,
+    "map": 1,
+    "name": "Up",
+    "category": "moongate",
+    "color": "red"
+   },
+   {
+    "x": 5507,
+    "y": 162,
+    "z": 0,
+    "map": 0,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5507,
+    "y": 162,
+    "z": 0,
+    "map": 1,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5538,
+    "y": 170,
+    "z": 0,
+    "map": 0,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5538,
+    "y": 170,
+    "z": 0,
+    "map": 1,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5513,
+    "y": 175,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5513,
+    "y": 175,
+    "z": 0,
+    "map": 1,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5580,
+    "y": 195,
+    "z": 0,
+    "map": 0,
+    "name": "Mage Tower",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5580,
+    "y": 195,
+    "z": 0,
+    "map": 1,
+    "name": "Mage Tower",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "59,1": [
+   {
+    "x": 5920,
+    "y": 169,
+    "z": 0,
+    "map": 0,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5920,
+    "y": 169,
+    "z": 0,
+    "map": 1,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5973,
+    "y": 169,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5973,
+    "y": 169,
+    "z": 0,
+    "map": 1,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   }
+  ],
+  "60,2": [
+   {
+    "x": 6044,
+    "y": 226,
+    "z": 0,
+    "map": 0,
+    "name": "The Death Trap",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 6044,
+    "y": 226,
+    "z": 0,
+    "map": 1,
+    "name": "The Death Trap",
+    "category": "exit",
+    "color": "red"
+   }
+  ],
+  "58,2": [
+   {
+    "x": 5850,
+    "y": 237,
+    "z": 0,
+    "map": 0,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5850,
+    "y": 237,
+    "z": 0,
+    "map": 1,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   }
+  ],
+  "21,2": [
+   {
+    "x": 2188,
+    "y": 293,
+    "z": 0,
+    "map": 2,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   }
+  ],
+  "57,3": [
+   {
+    "x": 5701,
+    "y": 305,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5701,
+    "y": 305,
+    "z": 0,
+    "map": 1,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   }
+  ],
+  "56,3": [
+   {
+    "x": 5673,
+    "y": 323,
+    "z": 0,
+    "map": 0,
+    "name": "Ice Fiend Lair",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5673,
+    "y": 323,
+    "z": 0,
+    "map": 1,
+    "name": "Ice Fiend Lair",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "58,3": [
+   {
+    "x": 5832,
+    "y": 325,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5832,
+    "y": 325,
+    "z": 0,
+    "map": 1,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5830,
+    "y": 357,
+    "z": 0,
+    "map": 0,
+    "name": "Ratman Fort",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5830,
+    "y": 357,
+    "z": 0,
+    "map": 1,
+    "name": "Ratman Fort",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "53,5": [
+   {
+    "x": 5305,
+    "y": 530,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5305,
+    "y": 530,
+    "z": 0,
+    "map": 1,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5346,
+    "y": 578,
+    "z": 0,
+    "map": 0,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5346,
+    "y": 578,
+    "z": 0,
+    "map": 1,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   }
+  ],
+  "58,5": [
+   {
+    "x": 5826,
+    "y": 531,
+    "z": 0,
+    "map": 0,
+    "name": "Torture Chamber",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5826,
+    "y": 531,
+    "z": 0,
+    "map": 1,
+    "name": "Torture Chamber",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5828,
+    "y": 593,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "teleporter",
+    "color": "red"
+   },
+   {
+    "x": 5828,
+    "y": 593,
+    "z": 0,
+    "map": 1,
+    "name": "Up",
+    "category": "teleporter",
+    "color": "red"
+   }
+  ],
+  "56,5": [
+   {
+    "x": 5691,
+    "y": 569,
+    "z": 0,
+    "map": 0,
+    "name": "Down",
+    "category": "teleporter",
+    "color": "red"
+   },
+   {
+    "x": 5691,
+    "y": 569,
+    "z": 0,
+    "map": 1,
+    "name": "Down",
+    "category": "teleporter",
+    "color": "red"
+   }
+  ],
+  "55,6": [
+   {
+    "x": 5588,
+    "y": 632,
+    "z": 0,
+    "map": 0,
+    "name": "Exit (Despise)",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 5588,
+    "y": 632,
+    "z": 0,
+    "map": 1,
+    "name": "Exit (Despise)",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 5573,
+    "y": 629,
+    "z": 0,
+    "map": 0,
+    "name": "Up (Good Side)",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5573,
+    "y": 629,
+    "z": 0,
+    "map": 1,
+    "name": "Up (Good Side)",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5572,
+    "y": 633,
+    "z": 0,
+    "map": 0,
+    "name": "Down (Evil Side)",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5572,
+    "y": 633,
+    "z": 0,
+    "map": 1,
+    "name": "Down (Evil Side)",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5507,
+    "y": 626,
+    "z": 0,
+    "map": 0,
+    "name": "Shrine",
+    "category": "shrine",
+    "color": "red"
+   },
+   {
+    "x": 5507,
+    "y": 626,
+    "z": 0,
+    "map": 1,
+    "name": "Shrine",
+    "category": "shrine",
+    "color": "red"
+   },
+   {
+    "x": 5524,
+    "y": 673,
+    "z": 0,
+    "map": 0,
+    "name": "Exit",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 5524,
+    "y": 673,
+    "z": 0,
+    "map": 1,
+    "name": "Exit",
+    "category": "exit",
+    "color": "red"
+   }
+  ],
+  "58,6": [
+   {
+    "x": 5825,
+    "y": 632,
+    "z": 0,
+    "map": 0,
+    "name": "Exit (Wrong)",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 5825,
+    "y": 632,
+    "z": 0,
+    "map": 1,
+    "name": "Exit (Wrong)",
+    "category": "exit",
+    "color": "red"
+   }
+  ],
+  "54,5": [
+   {
+    "x": 5460,
+    "y": 523,
+    "z": 0,
+    "map": 1,
+    "name": "To Evil Side",
+    "category": "moongate",
+    "color": "red"
+   },
+   {
+    "x": 5474,
+    "y": 525,
+    "z": 0,
+    "map": 1,
+    "name": "Shrine (Grants Wisp Orb)",
+    "category": "shrine",
+    "color": "red"
+   },
+   {
+    "x": 5424,
+    "y": 570,
+    "z": 0,
+    "map": 0,
+    "name": "Shrine",
+    "category": "shrine",
+    "color": "red"
+   },
+   {
+    "x": 5424,
+    "y": 570,
+    "z": 0,
+    "map": 1,
+    "name": "Shrine",
+    "category": "shrine",
+    "color": "red"
+   }
+  ],
+  "53,6": [
+   {
+    "x": 5388,
+    "y": 628,
+    "z": 0,
+    "map": 1,
+    "name": "To Evil Side",
+    "category": "moongate",
+    "color": "red"
+   },
+   {
+    "x": 5305,
+    "y": 651,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5305,
+    "y": 651,
+    "z": 0,
+    "map": 1,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5308,
+    "y": 676,
+    "z": 0,
+    "map": 0,
+    "name": "Pit",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5308,
+    "y": 676,
+    "z": 0,
+    "map": 1,
+    "name": "Pit",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5386,
+    "y": 681,
+    "z": 0,
+    "map": 0,
+    "name": "Vault",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5386,
+    "y": 681,
+    "z": 0,
+    "map": 1,
+    "name": "Vault",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "54,6": [
+   {
+    "x": 5458,
+    "y": 610,
+    "z": 0,
+    "map": 1,
+    "name": "To Evil Side",
+    "category": "moongate",
+    "color": "red"
+   },
+   {
+    "x": 5461,
+    "y": 674,
+    "z": 0,
+    "map": 1,
+    "name": "To Good Side",
+    "category": "moongate",
+    "color": "red"
+   }
+  ],
+  "54,7": [
+   {
+    "x": 5476,
+    "y": 737,
+    "z": 0,
+    "map": 1,
+    "name": "To Good Side",
+    "category": "moongate",
+    "color": "red"
+   },
+   {
+    "x": 5472,
+    "y": 754,
+    "z": 0,
+    "map": 0,
+    "name": "Shrine",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5472,
+    "y": 754,
+    "z": 0,
+    "map": 1,
+    "name": "Shrine (Grants Wisp Orb)",
+    "category": "shrine",
+    "color": "red"
+   }
+  ],
+  "53,7": [
+   {
+    "x": 5388,
+    "y": 753,
+    "z": 0,
+    "map": 1,
+    "name": "To Good Side",
+    "category": "moongate",
+    "color": "red"
+   },
+   {
+    "x": 5313,
+    "y": 746,
+    "z": 0,
+    "map": 0,
+    "name": "Crypt",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5313,
+    "y": 746,
+    "z": 0,
+    "map": 1,
+    "name": "Crypt",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5386,
+    "y": 756,
+    "z": 0,
+    "map": 0,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   }
+  ],
+  "55,5": [
+   {
+    "x": 5503,
+    "y": 570,
+    "z": 0,
+    "map": 0,
+    "name": "Exit",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 5503,
+    "y": 570,
+    "z": 0,
+    "map": 1,
+    "name": "Exit",
+    "category": "exit",
+    "color": "red"
+   }
+  ],
+  "52,5": [
+   {
+    "x": 5216,
+    "y": 586,
+    "z": 0,
+    "map": 0,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5216,
+    "y": 586,
+    "z": 0,
+    "map": 1,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   }
+  ],
+  "51,6": [
+   {
+    "x": 5146,
+    "y": 616,
+    "z": 0,
+    "map": 0,
+    "name": "Skeleton Prison",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5146,
+    "y": 616,
+    "z": 0,
+    "map": 1,
+    "name": "Skeleton Prison",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5137,
+    "y": 649,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5137,
+    "y": 649,
+    "z": 0,
+    "map": 1,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   }
+  ],
+  "52,6": [
+   {
+    "x": 5294,
+    "y": 624,
+    "z": 0,
+    "map": 0,
+    "name": "Skeletal Magi",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5294,
+    "y": 624,
+    "z": 0,
+    "map": 1,
+    "name": "Skeletal Magi",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5275,
+    "y": 676,
+    "z": 0,
+    "map": 0,
+    "name": "Lava Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5275,
+    "y": 676,
+    "z": 0,
+    "map": 1,
+    "name": "Lava Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5267,
+    "y": 691,
+    "z": 0,
+    "map": 0,
+    "name": "Treasure Chamber",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5267,
+    "y": 691,
+    "z": 0,
+    "map": 1,
+    "name": "Treasure Chamber",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "52,7": [
+   {
+    "x": 5219,
+    "y": 731,
+    "z": 0,
+    "map": 0,
+    "name": "Unholy Temple",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5219,
+    "y": 731,
+    "z": 0,
+    "map": 1,
+    "name": "Unholy Temple",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5219,
+    "y": 761,
+    "z": 0,
+    "map": 0,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5219,
+    "y": 761,
+    "z": 0,
+    "map": 1,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5205,
+    "y": 776,
+    "z": 0,
+    "map": 0,
+    "name": "Shrine",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5205,
+    "y": 776,
+    "z": 0,
+    "map": 1,
+    "name": "Shrine",
+    "category": "down",
+    "color": "red"
+   }
+  ],
+  "51,7": [
+   {
+    "x": 5151,
+    "y": 742,
+    "z": 0,
+    "map": 0,
+    "name": "Catacomb",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5151,
+    "y": 742,
+    "z": 0,
+    "map": 1,
+    "name": "Catacomb",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5143,
+    "y": 799,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5143,
+    "y": 799,
+    "z": 0,
+    "map": 1,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   }
+  ],
+  "51,8": [
+   {
+    "x": 5151,
+    "y": 809,
+    "z": 0,
+    "map": 0,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5151,
+    "y": 809,
+    "z": 0,
+    "map": 1,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   }
+  ],
+  "20,8": [
+   {
+    "x": 2050,
+    "y": 837,
+    "z": 0,
+    "map": 2,
+    "name": "Prison Cells",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 2050,
+    "y": 860,
+    "z": 0,
+    "map": 2,
+    "name": "Torture Room",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "21,8": [
+   {
+    "x": 2178,
+    "y": 837,
+    "z": 0,
+    "map": 2,
+    "name": "Prison Cells",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 2178,
+    "y": 859,
+    "z": 0,
+    "map": 2,
+    "name": "A Very Bloody Kitchen",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "23,8": [
+   {
+    "x": 2385,
+    "y": 837,
+    "z": 0,
+    "map": 0,
+    "name": "In",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 2385,
+    "y": 837,
+    "z": 0,
+    "map": 1,
+    "name": "In",
+    "category": "exit",
+    "color": "red"
+   }
+  ],
+  "54,8": [
+   {
+    "x": 5452,
+    "y": 843,
+    "z": 0,
+    "map": 0,
+    "name": "Statue",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5452,
+    "y": 843,
+    "z": 0,
+    "map": 1,
+    "name": "Statue",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5410,
+    "y": 859,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5474,
+    "y": 867,
+    "z": 0,
+    "map": 0,
+    "name": "Shrine",
+    "category": "shrine",
+    "color": "red"
+   },
+   {
+    "x": 5474,
+    "y": 867,
+    "z": 0,
+    "map": 1,
+    "name": "Shrine",
+    "category": "shrine",
+    "color": "red"
+   }
+  ],
+  "53,8": [
+   {
+    "x": 5385,
+    "y": 851,
+    "z": 0,
+    "map": 0,
+    "name": "Shrine",
+    "category": "shrine",
+    "color": "red"
+   },
+   {
+    "x": 5385,
+    "y": 851,
+    "z": 0,
+    "map": 1,
+    "name": "Shrine",
+    "category": "shrine",
+    "color": "red"
+   },
+   {
+    "x": 5385,
+    "y": 851,
+    "z": 0,
+    "map": 1,
+    "name": "Crystal Ball",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "25,8": [
+   {
+    "x": 2545,
+    "y": 853,
+    "z": 0,
+    "map": 0,
+    "name": "In",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 2545,
+    "y": 853,
+    "z": 0,
+    "map": 1,
+    "name": "In",
+    "category": "exit",
+    "color": "red"
+   }
+  ],
+  "24,8": [
+   {
+    "x": 2456,
+    "y": 859,
+    "z": 0,
+    "map": 0,
+    "name": "Out",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 2456,
+    "y": 859,
+    "z": 0,
+    "map": 1,
+    "name": "Out",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 2421,
+    "y": 884,
+    "z": 0,
+    "map": 0,
+    "name": "Out",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 2421,
+    "y": 884,
+    "z": 0,
+    "map": 1,
+    "name": "Out",
+    "category": "exit",
+    "color": "red"
+   }
+  ],
+  "0,8": [
+   {
+    "x": 10,
+    "y": 872,
+    "z": 0,
+    "map": 2,
+    "name": "Ki-rin Reserve (Ilshen's Tomb)",
+    "category": "exit",
+    "color": "red"
+   }
+  ],
+  "51,9": [
+   {
+    "x": 5130,
+    "y": 908,
+    "z": 0,
+    "map": 0,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5130,
+    "y": 908,
+    "z": 0,
+    "map": 1,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5142,
+    "y": 967,
+    "z": 0,
+    "map": 0,
+    "name": "Ancient Wyrm Lair",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5142,
+    "y": 967,
+    "z": 0,
+    "map": 1,
+    "name": "Ancient Wyrm Lair",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5135,
+    "y": 985,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5135,
+    "y": 985,
+    "z": 0,
+    "map": 1,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   }
+  ],
+  "21,9": [
+   {
+    "x": 2115,
+    "y": 916,
+    "z": 0,
+    "map": 2,
+    "name": "Death Vortex",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 2146,
+    "y": 955,
+    "z": 0,
+    "map": 2,
+    "name": "Blood Waterfall",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "52,9": [
+   {
+    "x": 5247,
+    "y": 939,
+    "z": 0,
+    "map": 0,
+    "name": "Here Be Dragons",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5247,
+    "y": 939,
+    "z": 0,
+    "map": 1,
+    "name": "Here Be Dragons",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "20,9": [
+   {
+    "x": 2083,
+    "y": 952,
+    "z": 0,
+    "map": 2,
+    "name": "Blood Waterfall",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "18,9": [
+   {
+    "x": 1862,
+    "y": 982,
+    "z": 0,
+    "map": 2,
+    "name": "Spider Cave (Spider Shrine)",
+    "category": "exit",
+    "color": "red"
+   }
+  ],
+  "54,10": [
+   {
+    "x": 5450,
+    "y": 1004,
+    "z": 0,
+    "map": 0,
+    "name": "Shrine",
+    "category": "shrine",
+    "color": "red"
+   },
+   {
+    "x": 5450,
+    "y": 1004,
+    "z": 0,
+    "map": 1,
+    "name": "Shrine",
+    "category": "shrine",
+    "color": "red"
+   }
+  ],
+  "19,10": [
+   {
+    "x": 1982,
+    "y": 1021,
+    "z": 0,
+    "map": 2,
+    "name": "Throne Room",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "21,10": [
+   {
+    "x": 2114,
+    "y": 1028,
+    "z": 0,
+    "map": 2,
+    "name": "Blood Pentagram",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "53,12": [
+   {
+    "x": 5364,
+    "y": 1289,
+    "z": 0,
+    "map": 0,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5364,
+    "y": 1289,
+    "z": 0,
+    "map": 1,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5313,
+    "y": 1291,
+    "z": 0,
+    "map": 0,
+    "name": "Orc Forge",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5313,
+    "y": 1291,
+    "z": 0,
+    "map": 1,
+    "name": "Orc Forge",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5395,
+    "y": 1297,
+    "z": 0,
+    "map": 0,
+    "name": "Teleporter 4B",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   }
+  ],
+  "54,12": [
+   {
+    "x": 5402,
+    "y": 1289,
+    "z": 0,
+    "map": 0,
+    "name": "Khaldun (Back Door)",
+    "category": "exit",
+    "color": "red"
+   }
+  ],
+  "55,13": [
+   {
+    "x": 5573,
+    "y": 1300,
+    "z": 0,
+    "map": 0,
+    "name": "Khaldun (Main)",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 5572,
+    "y": 1307,
+    "z": 0,
+    "map": 0,
+    "name": "Teleporter 2B",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 5555,
+    "y": 1313,
+    "z": 0,
+    "map": 0,
+    "name": "Wall",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5555,
+    "y": 1317,
+    "z": 0,
+    "map": 0,
+    "name": "Teleporter 4A",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 5552,
+    "y": 1332,
+    "z": 0,
+    "map": 0,
+    "name": "Council Chamber",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5565,
+    "y": 1338,
+    "z": 0,
+    "map": 0,
+    "name": "Teleporter 1A",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 5513,
+    "y": 1339,
+    "z": 0,
+    "map": 0,
+    "name": "Wall",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5527,
+    "y": 1342,
+    "z": 0,
+    "map": 0,
+    "name": "Teleporter 3A",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 5564,
+    "y": 1354,
+    "z": 0,
+    "map": 0,
+    "name": "Altar",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5542,
+    "y": 1356,
+    "z": 0,
+    "map": 0,
+    "name": "Teleporter 2A",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 5524,
+    "y": 1367,
+    "z": 0,
+    "map": 0,
+    "name": "Moving Wall",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5523,
+    "y": 1394,
+    "z": 0,
+    "map": 0,
+    "name": "Pile Of Skulls",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "0,13": [
+   {
+    "x": 54,
+    "y": 1301,
+    "z": 0,
+    "map": 2,
+    "name": "Jails",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 80,
+    "y": 1365,
+    "z": 0,
+    "map": 2,
+    "name": "Ilshen's Tomb (Serpentine Passage)",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 51,
+    "y": 1370,
+    "z": 0,
+    "map": 2,
+    "name": "Dining Hall",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 80,
+    "y": 1376,
+    "z": 0,
+    "map": 2,
+    "name": "Music Room",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "53,13": [
+   {
+    "x": 5340,
+    "y": 1306,
+    "z": 0,
+    "map": 0,
+    "name": "Lava Forges",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5340,
+    "y": 1306,
+    "z": 0,
+    "map": 1,
+    "name": "Lava Forges",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5324,
+    "y": 1308,
+    "z": 0,
+    "map": 0,
+    "name": "Orc \"Shrine\"",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5324,
+    "y": 1308,
+    "z": 0,
+    "map": 1,
+    "name": "Orc \"Shrine\"",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5332,
+    "y": 1323,
+    "z": 0,
+    "map": 0,
+    "name": "Cider Store",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5332,
+    "y": 1323,
+    "z": 0,
+    "map": 1,
+    "name": "Cider Store",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5388,
+    "y": 1325,
+    "z": 0,
+    "map": 0,
+    "name": "Big Teleporter",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 5356,
+    "y": 1331,
+    "z": 0,
+    "map": 0,
+    "name": "Bed Chambers",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5356,
+    "y": 1331,
+    "z": 0,
+    "map": 1,
+    "name": "Bed Chambers",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5387,
+    "y": 1341,
+    "z": 0,
+    "map": 0,
+    "name": "Forge",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5331,
+    "y": 1349,
+    "z": 0,
+    "map": 0,
+    "name": "Pen",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5331,
+    "y": 1349,
+    "z": 0,
+    "map": 1,
+    "name": "Pen",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5364,
+    "y": 1363,
+    "z": 0,
+    "map": 0,
+    "name": "Armoury",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5364,
+    "y": 1363,
+    "z": 0,
+    "map": 1,
+    "name": "Armoury",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5306,
+    "y": 1371,
+    "z": 0,
+    "map": 0,
+    "name": "Jail Cell",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5306,
+    "y": 1371,
+    "z": 0,
+    "map": 1,
+    "name": "Jail Cell",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5331,
+    "y": 1379,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5331,
+    "y": 1379,
+    "z": 0,
+    "map": 1,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   }
+  ],
+  "52,13": [
+   {
+    "x": 5289,
+    "y": 1315,
+    "z": 0,
+    "map": 0,
+    "name": "Corpser Pen",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5289,
+    "y": 1315,
+    "z": 0,
+    "map": 1,
+    "name": "Corpser Pen",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5291,
+    "y": 1339,
+    "z": 0,
+    "map": 0,
+    "name": "Blood Well",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5291,
+    "y": 1339,
+    "z": 0,
+    "map": 1,
+    "name": "Blood Well",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "57,13": [
+   {
+    "x": 5701,
+    "y": 1318,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5701,
+    "y": 1318,
+    "z": 0,
+    "map": 1,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5787,
+    "y": 1337,
+    "z": 0,
+    "map": 0,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5787,
+    "y": 1337,
+    "z": 0,
+    "map": 1,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   }
+  ],
+  "54,13": [
+   {
+    "x": 5443,
+    "y": 1323,
+    "z": 0,
+    "map": 0,
+    "name": "Crypt",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5436,
+    "y": 1341,
+    "z": 0,
+    "map": 0,
+    "name": "Laboratory",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5473,
+    "y": 1348,
+    "z": 0,
+    "map": 0,
+    "name": "Wall",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5479,
+    "y": 1348,
+    "z": 0,
+    "map": 0,
+    "name": "Pit",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5402,
+    "y": 1360,
+    "z": 0,
+    "map": 0,
+    "name": "Hidden Switch",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5453,
+    "y": 1361,
+    "z": 0,
+    "map": 0,
+    "name": "Statue",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5457,
+    "y": 1364,
+    "z": 0,
+    "map": 0,
+    "name": "Wall",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5452,
+    "y": 1374,
+    "z": 0,
+    "map": 0,
+    "name": "Bottom of Pit",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5444,
+    "y": 1395,
+    "z": 0,
+    "map": 0,
+    "name": "Traps",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5491,
+    "y": 1395,
+    "z": 0,
+    "map": 0,
+    "name": "Sarcophagi",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5412,
+    "y": 1396,
+    "z": 0,
+    "map": 0,
+    "name": "Teleporter 3B",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   }
+  ],
+  "10,13": [
+   {
+    "x": 1012,
+    "y": 1330,
+    "z": 0,
+    "map": 0,
+    "name": "Altar",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "1,13": [
+   {
+    "x": 131,
+    "y": 1331,
+    "z": 0,
+    "map": 2,
+    "name": "graveyard",
+    "category": "graveyard",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 107,
+    "y": 1390,
+    "z": 0,
+    "map": 2,
+    "name": "Anhk Room",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "56,13": [
+   {
+    "x": 5620,
+    "y": 1341,
+    "z": 0,
+    "map": 0,
+    "name": "Teleporter 1B",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 5605,
+    "y": 1343,
+    "z": 0,
+    "map": 0,
+    "name": "The Harrower's pool",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "54,14": [
+   {
+    "x": 5460,
+    "y": 1409,
+    "z": 0,
+    "map": 0,
+    "name": "Brazier",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5460,
+    "y": 1418,
+    "z": 0,
+    "map": 0,
+    "name": "Secret Passage",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5459,
+    "y": 1426,
+    "z": 0,
+    "map": 0,
+    "name": "Switch",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5483,
+    "y": 1440,
+    "z": 0,
+    "map": 0,
+    "name": "Bridge",
+    "category": "bridge",
+    "color": "red"
+   },
+   {
+    "x": 5452,
+    "y": 1443,
+    "z": 0,
+    "map": 0,
+    "name": "Sarcophagi",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5453,
+    "y": 1484,
+    "z": 0,
+    "map": 0,
+    "name": "Temple of the Zealots",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5422,
+    "y": 1490,
+    "z": 0,
+    "map": 0,
+    "name": "Pool of Blood",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "56,14": [
+   {
+    "x": 5647,
+    "y": 1411,
+    "z": 0,
+    "map": 0,
+    "name": "Mage Tower",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5647,
+    "y": 1411,
+    "z": 0,
+    "map": 1,
+    "name": "Mage Tower",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "0,14": [
+   {
+    "x": 31,
+    "y": 1412,
+    "z": 0,
+    "map": 2,
+    "name": "Armoury",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 63,
+    "y": 1447,
+    "z": 0,
+    "map": 2,
+    "name": "Alchemy Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 61,
+    "y": 1470,
+    "z": 0,
+    "map": 2,
+    "name": "Library",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 88,
+    "y": 1471,
+    "z": 0,
+    "map": 2,
+    "name": "Tarot Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 39,
+    "y": 1492,
+    "z": 0,
+    "map": 2,
+    "name": "Armoury",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "53,14": [
+   {
+    "x": 5395,
+    "y": 1419,
+    "z": 0,
+    "map": 0,
+    "name": "Altar",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5396,
+    "y": 1467,
+    "z": 0,
+    "map": 0,
+    "name": "Sarcophagi",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "9,14": [
+   {
+    "x": 956,
+    "y": 1427,
+    "z": 0,
+    "map": 2,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 953,
+    "y": 1443,
+    "z": 0,
+    "map": 2,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 947,
+    "y": 1466,
+    "z": 0,
+    "map": 2,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   }
+  ],
+  "1,14": [
+   {
+    "x": 123,
+    "y": 1435,
+    "z": 0,
+    "map": 2,
+    "name": "Mausoleum",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "8,14": [
+   {
+    "x": 870,
+    "y": 1435,
+    "z": 0,
+    "map": 2,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 842,
+    "y": 1436,
+    "z": 0,
+    "map": 2,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 894,
+    "y": 1451,
+    "z": 0,
+    "map": 2,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 890,
+    "y": 1471,
+    "z": 0,
+    "map": 2,
+    "name": "Armoury",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 831,
+    "y": 1485,
+    "z": 0,
+    "map": 2,
+    "name": "Barracks",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 877,
+    "y": 1491,
+    "z": 0,
+    "map": 2,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   }
+  ],
+  "6,14": [
+   {
+    "x": 692,
+    "y": 1491,
+    "z": 0,
+    "map": 2,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   }
+  ],
+  "7,14": [
+   {
+    "x": 713,
+    "y": 1491,
+    "z": 0,
+    "map": 2,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   }
+  ],
+  "14,14": [
+   {
+    "x": 1416,
+    "y": 1498,
+    "z": 0,
+    "map": 2,
+    "name": "Throne Room",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "8,15": [
+   {
+    "x": 899,
+    "y": 1506,
+    "z": 0,
+    "map": 2,
+    "name": "Statue Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 870,
+    "y": 1529,
+    "z": 0,
+    "map": 2,
+    "name": "Dining Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 810,
+    "y": 1548,
+    "z": 0,
+    "map": 2,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 836,
+    "y": 1551,
+    "z": 0,
+    "map": 2,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 873,
+    "y": 1553,
+    "z": 0,
+    "map": 2,
+    "name": "Bust: Miron Vehl",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 878,
+    "y": 1554,
+    "z": 0,
+    "map": 2,
+    "name": "Statue: Martoo Saul",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 883,
+    "y": 1555,
+    "z": 0,
+    "map": 2,
+    "name": "We Who Remain True Shall Rise Again.",
+    "category": "pin",
+    "color": "red"
+   },
+   {
+    "x": 876,
+    "y": 1556,
+    "z": 0,
+    "map": 2,
+    "name": "Statue: Zendella Kxriss",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 881,
+    "y": 1557,
+    "z": 0,
+    "map": 2,
+    "name": "Only Then Can Balance Be Found",
+    "category": "pin",
+    "color": "red"
+   },
+   {
+    "x": 874,
+    "y": 1558,
+    "z": 0,
+    "map": 2,
+    "name": "Statue: Junin Pince",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 879,
+    "y": 1559,
+    "z": 0,
+    "map": 2,
+    "name": "The True Path to Order is Through Chaos and The Cleansing of All Life",
+    "category": "pin",
+    "color": "red"
+   },
+   {
+    "x": 877,
+    "y": 1561,
+    "z": 0,
+    "map": 2,
+    "name": "Cast Out From Our World By Those Who Would Not Believe",
+    "category": "pin",
+    "color": "red"
+   },
+   {
+    "x": 875,
+    "y": 1563,
+    "z": 0,
+    "map": 2,
+    "name": "In Rememberance of Our Noble Leaders",
+    "category": "pin",
+    "color": "red"
+   },
+   {
+    "x": 891,
+    "y": 1571,
+    "z": 0,
+    "map": 2,
+    "name": "Rememberance Room",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "7,15": [
+   {
+    "x": 724,
+    "y": 1507,
+    "z": 0,
+    "map": 2,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 787,
+    "y": 1537,
+    "z": 0,
+    "map": 2,
+    "name": "Teleporter",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 747,
+    "y": 1539,
+    "z": 0,
+    "map": 2,
+    "name": "To North Room",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 783,
+    "y": 1539,
+    "z": 0,
+    "map": 2,
+    "name": "Teleporter",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 780,
+    "y": 1541,
+    "z": 0,
+    "map": 2,
+    "name": "Teleporter",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 782,
+    "y": 1542,
+    "z": 0,
+    "map": 2,
+    "name": "Teleporter",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 787,
+    "y": 1543,
+    "z": 0,
+    "map": 2,
+    "name": "Teleporter",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 781,
+    "y": 1545,
+    "z": 0,
+    "map": 2,
+    "name": "To West Wing",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 789,
+    "y": 1545,
+    "z": 0,
+    "map": 2,
+    "name": "Teleporter",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 780,
+    "y": 1546,
+    "z": 0,
+    "map": 2,
+    "name": "To North Hall",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 784,
+    "y": 1546,
+    "z": 0,
+    "map": 2,
+    "name": "Teleporter",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 798,
+    "y": 1547,
+    "z": 0,
+    "map": 2,
+    "name": "Teleporter Maze",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 791,
+    "y": 1548,
+    "z": 0,
+    "map": 2,
+    "name": "Teleporter",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 782,
+    "y": 1550,
+    "z": 0,
+    "map": 2,
+    "name": "Teleporter",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 784,
+    "y": 1550,
+    "z": 0,
+    "map": 2,
+    "name": "Teleporter",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 719,
+    "y": 1553,
+    "z": 0,
+    "map": 2,
+    "name": "A Wisp Adorned Ankh",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 789,
+    "y": 1553,
+    "z": 0,
+    "map": 2,
+    "name": "Teleporter",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 778,
+    "y": 1554,
+    "z": 0,
+    "map": 2,
+    "name": "Teleporter",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 747,
+    "y": 1555,
+    "z": 0,
+    "map": 2,
+    "name": "To South Room",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 781,
+    "y": 1555,
+    "z": 0,
+    "map": 2,
+    "name": "Teleporter",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 785,
+    "y": 1555,
+    "z": 0,
+    "map": 2,
+    "name": "Teleporter",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 789,
+    "y": 1555,
+    "z": 0,
+    "map": 2,
+    "name": "To South Hall",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 789,
+    "y": 1557,
+    "z": 0,
+    "map": 2,
+    "name": "To West Wing",
+    "category": "teleporter",
+    "color": "red",
+    "major": true
+   }
+  ],
+  "12,15": [
+   {
+    "x": 1250,
+    "y": 1510,
+    "z": 0,
+    "map": 2,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 1268,
+    "y": 1510,
+    "z": 0,
+    "map": 2,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 1290,
+    "y": 1538,
+    "z": 0,
+    "map": 2,
+    "name": "Diamond Room",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "11,15": [
+   {
+    "x": 1179,
+    "y": 1512,
+    "z": 0,
+    "map": 2,
+    "name": "Skeletal Dragon Lair",
+    "category": "point",
+    "color": "red"
+   }
+  ],
+  "0,15": [
+   {
+    "x": 11,
+    "y": 1521,
+    "z": 0,
+    "map": 2,
+    "name": "Ilshen's Tomb (Ki-rin Reserve)",
+    "category": "exit",
+    "color": "red"
+   }
+  ],
+  "1,15": [
+   {
+    "x": 119,
+    "y": 1529,
+    "z": 0,
+    "map": 2,
+    "name": "Jails, Stable + Torture Rooms",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 139,
+    "y": 1566,
+    "z": 0,
+    "map": 2,
+    "name": "Well",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "53,15": [
+   {
+    "x": 5344,
+    "y": 1550,
+    "z": 0,
+    "map": 0,
+    "name": "Nest",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5344,
+    "y": 1550,
+    "z": 0,
+    "map": 1,
+    "name": "Nest",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "2,15": [
+   {
+    "x": 264,
+    "y": 1583,
+    "z": 0,
+    "map": 2,
+    "name": "Lizardman Passage (To Ancient Wyrm Lair)",
+    "category": "exit",
+    "color": "red"
+   }
+  ],
+  "3,15": [
+   {
+    "x": 395,
+    "y": 1586,
+    "z": 0,
+    "map": 2,
+    "name": "Serpentine Passage (Ilshen's Tomb)",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 328,
+    "y": 1592,
+    "z": 0,
+    "map": 2,
+    "name": "Lizardman Passage (To Lizardman Camp)",
+    "category": "exit",
+    "color": "red"
+   }
+  ],
+  "51,15": [
+   {
+    "x": 5170,
+    "y": 1586,
+    "z": 0,
+    "map": 0,
+    "name": "Terathan Temple",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5170,
+    "y": 1586,
+    "z": 0,
+    "map": 1,
+    "name": "Terathan Temple",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "52,16": [
+   {
+    "x": 5251,
+    "y": 1602,
+    "z": 0,
+    "map": 0,
+    "name": "Lever",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5251,
+    "y": 1602,
+    "z": 0,
+    "map": 1,
+    "name": "Lever",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "51,17": [
+   {
+    "x": 5143,
+    "y": 1703,
+    "z": 0,
+    "map": 0,
+    "name": "Lever",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5143,
+    "y": 1703,
+    "z": 0,
+    "map": 1,
+    "name": "Lever",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "53,17": [
+   {
+    "x": 5342,
+    "y": 1743,
+    "z": 0,
+    "map": 0,
+    "name": "Ophidian Territory",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5342,
+    "y": 1743,
+    "z": 0,
+    "map": 1,
+    "name": "Ophidian Territory",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "55,18": [
+   {
+    "x": 5552,
+    "y": 1805,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5552,
+    "y": 1805,
+    "z": 0,
+    "map": 1,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5505,
+    "y": 1808,
+    "z": 0,
+    "map": 0,
+    "name": "Undead Prison",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5505,
+    "y": 1808,
+    "z": 0,
+    "map": 1,
+    "name": "Undead Prison",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5557,
+    "y": 1827,
+    "z": 0,
+    "map": 0,
+    "name": "Down to Undead Prison",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5557,
+    "y": 1827,
+    "z": 0,
+    "map": 1,
+    "name": "Down to Undead Prison",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5579,
+    "y": 1854,
+    "z": 0,
+    "map": 0,
+    "name": "Lich Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5579,
+    "y": 1854,
+    "z": 0,
+    "map": 1,
+    "name": "Lich Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5538,
+    "y": 1881,
+    "z": 0,
+    "map": 0,
+    "name": "Chapel",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5538,
+    "y": 1881,
+    "z": 0,
+    "map": 1,
+    "name": "Chapel",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "54,18": [
+   {
+    "x": 5469,
+    "y": 1806,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5469,
+    "y": 1806,
+    "z": 0,
+    "map": 1,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5471,
+    "y": 1878,
+    "z": 0,
+    "map": 0,
+    "name": "Harpy Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5471,
+    "y": 1878,
+    "z": 0,
+    "map": 1,
+    "name": "Harpy Room",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "56,18": [
+   {
+    "x": 5616,
+    "y": 1839,
+    "z": 0,
+    "map": 0,
+    "name": "Treasure Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5616,
+    "y": 1839,
+    "z": 0,
+    "map": 1,
+    "name": "Treasure Room",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "55,19": [
+   {
+    "x": 5579,
+    "y": 1927,
+    "z": 0,
+    "map": 0,
+    "name": "Out",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 5579,
+    "y": 1927,
+    "z": 0,
+    "map": 1,
+    "name": "Out",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 5505,
+    "y": 1998,
+    "z": 0,
+    "map": 0,
+    "name": "Harpy Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5505,
+    "y": 1998,
+    "z": 0,
+    "map": 1,
+    "name": "Harpy Room",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "54,19": [
+   {
+    "x": 5410,
+    "y": 1933,
+    "z": 0,
+    "map": 0,
+    "name": "Corpser Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5410,
+    "y": 1933,
+    "z": 0,
+    "map": 1,
+    "name": "Corpser Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5457,
+    "y": 1973,
+    "z": 0,
+    "map": 0,
+    "name": "Gazer Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5457,
+    "y": 1973,
+    "z": 0,
+    "map": 1,
+    "name": "Gazer Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5410,
+    "y": 1999,
+    "z": 0,
+    "map": 0,
+    "name": "Corpser Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5410,
+    "y": 1999,
+    "z": 0,
+    "map": 1,
+    "name": "Corpser Room",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "51,19": [
+   {
+    "x": 5133,
+    "y": 1946,
+    "z": 0,
+    "map": 0,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5133,
+    "y": 1946,
+    "z": 0,
+    "map": 1,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 5148,
+    "y": 1969,
+    "z": 0,
+    "map": 0,
+    "name": "Fortress Gate",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5148,
+    "y": 1969,
+    "z": 0,
+    "map": 1,
+    "name": "Fortress Gate",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "53,19": [
+   {
+    "x": 5394,
+    "y": 1958,
+    "z": 0,
+    "map": 0,
+    "name": "In",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 5394,
+    "y": 1958,
+    "z": 0,
+    "map": 1,
+    "name": "In",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 5319,
+    "y": 1977,
+    "z": 0,
+    "map": 0,
+    "name": "Orc Workshop",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5319,
+    "y": 1977,
+    "z": 0,
+    "map": 1,
+    "name": "Orc Workshop",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "56,19": [
+   {
+    "x": 5615,
+    "y": 1997,
+    "z": 0,
+    "map": 0,
+    "name": "Out",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 5615,
+    "y": 1997,
+    "z": 0,
+    "map": 1,
+    "name": "Out",
+    "category": "exit",
+    "color": "red"
+   }
+  ],
+  "52,20": [
+   {
+    "x": 5296,
+    "y": 2002,
+    "z": 0,
+    "map": 0,
+    "name": "Water Vat",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5296,
+    "y": 2002,
+    "z": 0,
+    "map": 1,
+    "name": "Water Vat",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5273,
+    "y": 2042,
+    "z": 0,
+    "map": 0,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 5273,
+    "y": 2042,
+    "z": 0,
+    "map": 1,
+    "name": "Up",
+    "category": "up",
+    "color": "red"
+   }
+  ],
+  "53,20": [
+   {
+    "x": 5309,
+    "y": 2008,
+    "z": 0,
+    "map": 0,
+    "name": "Smithing Platform",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5309,
+    "y": 2008,
+    "z": 0,
+    "map": 1,
+    "name": "Smithing Platform",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5348,
+    "y": 2008,
+    "z": 0,
+    "map": 0,
+    "name": "Earth Elemental Chamber",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5348,
+    "y": 2008,
+    "z": 0,
+    "map": 1,
+    "name": "Earth Elemental Chamber",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5389,
+    "y": 2025,
+    "z": 0,
+    "map": 0,
+    "name": "In",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 5389,
+    "y": 2025,
+    "z": 0,
+    "map": 1,
+    "name": "In",
+    "category": "exit",
+    "color": "red"
+   }
+  ],
+  "51,20": [
+   {
+    "x": 5137,
+    "y": 2020,
+    "z": 0,
+    "map": 0,
+    "name": "Orc Cave (B)",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 5137,
+    "y": 2020,
+    "z": 0,
+    "map": 1,
+    "name": "Orc Cave (B)",
+    "category": "exit",
+    "color": "red"
+   }
+  ],
+  "54,20": [
+   {
+    "x": 5443,
+    "y": 2029,
+    "z": 0,
+    "map": 0,
+    "name": "Water Elemental Room",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 5443,
+    "y": 2029,
+    "z": 0,
+    "map": 1,
+    "name": "Water Elemental Room",
+    "category": "interest",
+    "color": "red"
+   }
+  ],
+  "63,0": [
+   {
+    "x": 6327,
+    "y": 46,
+    "z": 0,
+    "map": 0,
+    "name": "Spike Deathtraps",
+    "category": "trap",
+    "color": "red"
+   },
+   {
+    "x": 6327,
+    "y": 46,
+    "z": 0,
+    "map": 1,
+    "name": "Spike Deathtraps",
+    "category": "trap",
+    "color": "red"
+   },
+   {
+    "x": 6368,
+    "y": 79,
+    "z": 0,
+    "map": 0,
+    "name": "Spike Deathtrap",
+    "category": "trap",
+    "color": "red"
+   },
+   {
+    "x": 6368,
+    "y": 79,
+    "z": 0,
+    "map": 1,
+    "name": "Spike Deathtrap",
+    "category": "trap",
+    "color": "red"
+   },
+   {
+    "x": 6316,
+    "y": 63,
+    "z": 0,
+    "map": 0,
+    "name": "Ladder D",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 6316,
+    "y": 63,
+    "z": 0,
+    "map": 1,
+    "name": "Ladder D",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 6376,
+    "y": 51,
+    "z": 0,
+    "map": 0,
+    "name": "Sanctuary Rear Exit (Out Only)",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 6376,
+    "y": 51,
+    "z": 0,
+    "map": 1,
+    "name": "Sanctuary Rear Exit (Out Only)",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 6356,
+    "y": 32,
+    "z": 0,
+    "map": 0,
+    "name": "Ladder B",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 6356,
+    "y": 32,
+    "z": 0,
+    "map": 1,
+    "name": "Ladder B",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 6319,
+    "y": 20,
+    "z": 0,
+    "map": 0,
+    "name": "Ladder A",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 6319,
+    "y": 20,
+    "z": 0,
+    "map": 1,
+    "name": "Ladder A",
+    "category": "up",
+    "color": "red"
+   }
+  ],
+  "63,1": [
+   {
+    "x": 6326,
+    "y": 140,
+    "z": 0,
+    "map": 0,
+    "name": "Spike Deathtraps",
+    "category": "trap",
+    "color": "red"
+   },
+   {
+    "x": 6326,
+    "y": 140,
+    "z": 0,
+    "map": 1,
+    "name": "Spike Deathtraps",
+    "category": "trap",
+    "color": "red"
+   },
+   {
+    "x": 6328,
+    "y": 144,
+    "z": 0,
+    "map": 0,
+    "name": "Spike Deathtrap",
+    "category": "trap",
+    "color": "red"
+   },
+   {
+    "x": 6328,
+    "y": 144,
+    "z": 0,
+    "map": 1,
+    "name": "Spike Deathtrap",
+    "category": "trap",
+    "color": "red"
+   },
+   {
+    "x": 6325,
+    "y": 143,
+    "z": 0,
+    "map": 0,
+    "name": "Ladder E? (Currently Not Working)",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 6325,
+    "y": 143,
+    "z": 0,
+    "map": 1,
+    "name": "Ladder E? (Currently Not Working)",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 6351,
+    "y": 143,
+    "z": 0,
+    "map": 0,
+    "name": "Landing Point E",
+    "category": "trap",
+    "color": "red"
+   },
+   {
+    "x": 6351,
+    "y": 143,
+    "z": 0,
+    "map": 1,
+    "name": "Landing Point E",
+    "category": "trap",
+    "color": "red"
+   },
+   {
+    "x": 6375,
+    "y": 125,
+    "z": 0,
+    "map": 0,
+    "name": "Ladder C",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 6375,
+    "y": 125,
+    "z": 0,
+    "map": 1,
+    "name": "Ladder C",
+    "category": "up",
+    "color": "red"
+   },
+   {
+    "x": 6379,
+    "y": 130,
+    "z": 0,
+    "map": 0,
+    "name": "Chiikkaha the Toothed",
+    "category": "named",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6379,
+    "y": 130,
+    "z": 0,
+    "map": 1,
+    "name": "Chiikkaha the Toothed",
+    "category": "named",
+    "color": "red",
+    "major": true
+   }
+  ],
+  "61,1": [
+   {
+    "x": 6167,
+    "y": 157,
+    "z": 0,
+    "map": 0,
+    "name": "Arrow Trap",
+    "category": "trap",
+    "color": "red"
+   },
+   {
+    "x": 6167,
+    "y": 157,
+    "z": 0,
+    "map": 1,
+    "name": "Arrow Trap",
+    "category": "trap",
+    "color": "red"
+   },
+   {
+    "x": 6159,
+    "y": 130,
+    "z": 0,
+    "map": 0,
+    "name": "Hole D",
+    "category": "point",
+    "color": "red"
+   },
+   {
+    "x": 6159,
+    "y": 130,
+    "z": 0,
+    "map": 1,
+    "name": "Hole D",
+    "category": "point",
+    "color": "red"
+   },
+   {
+    "x": 6188,
+    "y": 131,
+    "z": 0,
+    "map": 0,
+    "name": "Debris Path",
+    "category": "teleporter",
+    "color": "red"
+   },
+   {
+    "x": 6188,
+    "y": 131,
+    "z": 0,
+    "map": 1,
+    "name": "Debris Path",
+    "category": "teleporter",
+    "color": "red"
+   },
+   {
+    "x": 6176,
+    "y": 176,
+    "z": 0,
+    "map": 0,
+    "name": "To Next Area",
+    "category": "teleporter",
+    "color": "red"
+   },
+   {
+    "x": 6176,
+    "y": 176,
+    "z": 0,
+    "map": 1,
+    "name": "To Next Area",
+    "category": "teleporter",
+    "color": "red"
+   },
+   {
+    "x": 6169,
+    "y": 161,
+    "z": 0,
+    "map": 0,
+    "name": "Arrow Trap",
+    "category": "trap",
+    "color": "red"
+   },
+   {
+    "x": 6169,
+    "y": 161,
+    "z": 0,
+    "map": 1,
+    "name": "Arrow Trap",
+    "category": "trap",
+    "color": "red"
+   },
+   {
+    "x": 6159,
+    "y": 166,
+    "z": 0,
+    "map": 0,
+    "name": "Arrow Trap",
+    "category": "trap",
+    "color": "red"
+   },
+   {
+    "x": 6159,
+    "y": 166,
+    "z": 0,
+    "map": 1,
+    "name": "Arrow Trap",
+    "category": "trap",
+    "color": "red"
+   }
+  ],
+  "65,1": [
+   {
+    "x": 6552,
+    "y": 142,
+    "z": 0,
+    "map": 0,
+    "name": "Landing Point",
+    "category": "point",
+    "color": "red"
+   },
+   {
+    "x": 6552,
+    "y": 142,
+    "z": 0,
+    "map": 1,
+    "name": "Landing Point",
+    "category": "point",
+    "color": "red"
+   },
+   {
+    "x": 6502,
+    "y": 137,
+    "z": 0,
+    "map": 0,
+    "name": "Exit",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 6502,
+    "y": 137,
+    "z": 0,
+    "map": 1,
+    "name": "Exit",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 6565,
+    "y": 121,
+    "z": 0,
+    "map": 0,
+    "name": "Crystal Vortexes and Ice Elementals",
+    "category": "named",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6565,
+    "y": 121,
+    "z": 0,
+    "map": 1,
+    "name": "Crystal Vortexes and Ice Elementals",
+    "category": "named",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6539,
+    "y": 159,
+    "z": 0,
+    "map": 0,
+    "name": "Crystal Lattice Seekers and Wisps",
+    "category": "named",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6539,
+    "y": 159,
+    "z": 0,
+    "map": 1,
+    "name": "Crystal Lattice Seekers and Wisps",
+    "category": "named",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6510,
+    "y": 169,
+    "z": 0,
+    "map": 0,
+    "name": "Unfrozen Mummies and Protectors",
+    "category": "named",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6510,
+    "y": 169,
+    "z": 0,
+    "map": 1,
+    "name": "Unfrozen Mummies and Protectors",
+    "category": "named",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6521,
+    "y": 124,
+    "z": 0,
+    "map": 0,
+    "name": "Shimmering Effusion",
+    "category": "point",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6521,
+    "y": 124,
+    "z": 0,
+    "map": 1,
+    "name": "Shimmering Effusion",
+    "category": "point",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6589,
+    "y": 178,
+    "z": 0,
+    "map": 0,
+    "name": "Enhanced Arcane Circle",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 6589,
+    "y": 178,
+    "z": 0,
+    "map": 1,
+    "name": "Enhanced Arcane Circle",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 6535,
+    "y": 180,
+    "z": 0,
+    "map": 0,
+    "name": "Giant Crystal",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 6535,
+    "y": 180,
+    "z": 0,
+    "map": 1,
+    "name": "Giant Crystal",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 6577,
+    "y": 176,
+    "z": 0,
+    "map": 0,
+    "name": "Back to Dungeon",
+    "category": "point",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6577,
+    "y": 176,
+    "z": 0,
+    "map": 1,
+    "name": "Back to Dungeon",
+    "category": "point",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6537,
+    "y": 175,
+    "z": 0,
+    "map": 0,
+    "name": "To Buried Chamber",
+    "category": "moongate",
+    "color": "red"
+   },
+   {
+    "x": 6537,
+    "y": 175,
+    "z": 0,
+    "map": 1,
+    "name": "To Buried Chamber",
+    "category": "moongate",
+    "color": "red"
+   },
+   {
+    "x": 6515,
+    "y": 184,
+    "z": 0,
+    "map": 0,
+    "name": "Back To Dungeon",
+    "category": "moongate",
+    "color": "red"
+   },
+   {
+    "x": 6515,
+    "y": 184,
+    "z": 0,
+    "map": 1,
+    "name": "Back To Dungeon",
+    "category": "moongate",
+    "color": "red"
+   },
+   {
+    "x": 6583,
+    "y": 184,
+    "z": 0,
+    "map": 0,
+    "name": "Healer",
+    "category": "healer",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6583,
+    "y": 184,
+    "z": 0,
+    "map": 1,
+    "name": "Healer",
+    "category": "healer",
+    "color": "red",
+    "major": true
+   }
+  ],
+  "62,1": [
+   {
+    "x": 6211,
+    "y": 106,
+    "z": 0,
+    "map": 0,
+    "name": "Hole B",
+    "category": "point",
+    "color": "red"
+   },
+   {
+    "x": 6211,
+    "y": 106,
+    "z": 0,
+    "map": 1,
+    "name": "Hole B",
+    "category": "point",
+    "color": "red"
+   }
+  ],
+  "61,0": [
+   {
+    "x": 6176,
+    "y": 96,
+    "z": 0,
+    "map": 0,
+    "name": "Debris Path",
+    "category": "teleporter",
+    "color": "red"
+   },
+   {
+    "x": 6176,
+    "y": 96,
+    "z": 0,
+    "map": 1,
+    "name": "Debris Path",
+    "category": "teleporter",
+    "color": "red"
+   },
+   {
+    "x": 6165,
+    "y": 73,
+    "z": 0,
+    "map": 0,
+    "name": "Hole A",
+    "category": "point",
+    "color": "red"
+   },
+   {
+    "x": 6165,
+    "y": 73,
+    "z": 0,
+    "map": 1,
+    "name": "Hole A",
+    "category": "point",
+    "color": "red"
+   },
+   {
+    "x": 6180,
+    "y": 59,
+    "z": 0,
+    "map": 0,
+    "name": "Debris Path",
+    "category": "teleporter",
+    "color": "red"
+   },
+   {
+    "x": 6180,
+    "y": 59,
+    "z": 0,
+    "map": 1,
+    "name": "Debris Path",
+    "category": "teleporter",
+    "color": "red"
+   },
+   {
+    "x": 6173,
+    "y": 21,
+    "z": 0,
+    "map": 0,
+    "name": "Sanctuary",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 6173,
+    "y": 21,
+    "z": 0,
+    "map": 1,
+    "name": "Sanctuary",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 6174,
+    "y": 81,
+    "z": 0,
+    "map": 0,
+    "name": "Moug-Guur",
+    "category": "named",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6174,
+    "y": 81,
+    "z": 0,
+    "map": 1,
+    "name": "Moug-Guur",
+    "category": "named",
+    "color": "red",
+    "major": true
+   }
+  ],
+  "62,0": [
+   {
+    "x": 6256,
+    "y": 97,
+    "z": 0,
+    "map": 0,
+    "name": "Camp Exit",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 6256,
+    "y": 97,
+    "z": 0,
+    "map": 1,
+    "name": "Camp Exit",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 6260,
+    "y": 97,
+    "z": 0,
+    "map": 0,
+    "name": "Camp Exit",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 6260,
+    "y": 97,
+    "z": 0,
+    "map": 1,
+    "name": "Camp Exit",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 6263,
+    "y": 97,
+    "z": 0,
+    "map": 0,
+    "name": "Camp Exit",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 6263,
+    "y": 97,
+    "z": 0,
+    "map": 1,
+    "name": "Camp Exit",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 6269,
+    "y": 97,
+    "z": 0,
+    "map": 0,
+    "name": "Camp Exit",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 6269,
+    "y": 97,
+    "z": 0,
+    "map": 1,
+    "name": "Camp Exit",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 6273,
+    "y": 97,
+    "z": 0,
+    "map": 0,
+    "name": "Camp Exit",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 6273,
+    "y": 97,
+    "z": 0,
+    "map": 1,
+    "name": "Camp Exit",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 6262,
+    "y": 95,
+    "z": 0,
+    "map": 0,
+    "name": "Camp Entry",
+    "category": "point",
+    "color": "red"
+   },
+   {
+    "x": 6262,
+    "y": 95,
+    "z": 0,
+    "map": 1,
+    "name": "Camp Entry",
+    "category": "point",
+    "color": "red"
+   },
+   {
+    "x": 6261,
+    "y": 87,
+    "z": 0,
+    "map": 0,
+    "name": "Debris Path",
+    "category": "teleporter",
+    "color": "red"
+   },
+   {
+    "x": 6261,
+    "y": 87,
+    "z": 0,
+    "map": 1,
+    "name": "Debris Path",
+    "category": "teleporter",
+    "color": "red"
+   },
+   {
+    "x": 6251,
+    "y": 69,
+    "z": 0,
+    "map": 0,
+    "name": "Hole E",
+    "category": "point",
+    "color": "red"
+   },
+   {
+    "x": 6251,
+    "y": 69,
+    "z": 0,
+    "map": 1,
+    "name": "Hole E",
+    "category": "point",
+    "color": "red"
+   },
+   {
+    "x": 6253,
+    "y": 55,
+    "z": 0,
+    "map": 0,
+    "name": "Debris Path",
+    "category": "teleporter",
+    "color": "red"
+   },
+   {
+    "x": 6253,
+    "y": 55,
+    "z": 0,
+    "map": 1,
+    "name": "Debris Path",
+    "category": "teleporter",
+    "color": "red"
+   },
+   {
+    "x": 6244,
+    "y": 58,
+    "z": 0,
+    "map": 0,
+    "name": "Debris Path",
+    "category": "teleporter",
+    "color": "red"
+   },
+   {
+    "x": 6244,
+    "y": 58,
+    "z": 0,
+    "map": 1,
+    "name": "Debris Path",
+    "category": "teleporter",
+    "color": "red"
+   },
+   {
+    "x": 6276,
+    "y": 40,
+    "z": 0,
+    "map": 0,
+    "name": "Hole C",
+    "category": "point",
+    "color": "red"
+   },
+   {
+    "x": 6276,
+    "y": 40,
+    "z": 0,
+    "map": 1,
+    "name": "Hole C",
+    "category": "point",
+    "color": "red"
+   },
+   {
+    "x": 6243,
+    "y": 41,
+    "z": 0,
+    "map": 0,
+    "name": "Debris Path",
+    "category": "teleporter",
+    "color": "red"
+   },
+   {
+    "x": 6243,
+    "y": 41,
+    "z": 0,
+    "map": 1,
+    "name": "Debris Path",
+    "category": "teleporter",
+    "color": "red"
+   },
+   {
+    "x": 6221,
+    "y": 37,
+    "z": 0,
+    "map": 0,
+    "name": "Szavetra",
+    "category": "named",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6221,
+    "y": 37,
+    "z": 0,
+    "map": 1,
+    "name": "Szavetra",
+    "category": "named",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6236,
+    "y": 15,
+    "z": 0,
+    "map": 0,
+    "name": "To Previous Area",
+    "category": "teleporter",
+    "color": "red"
+   },
+   {
+    "x": 6236,
+    "y": 15,
+    "z": 0,
+    "map": 1,
+    "name": "To Previous Area",
+    "category": "teleporter",
+    "color": "red"
+   }
+  ],
+  "65,0": [
+   {
+    "x": 6543,
+    "y": 84,
+    "z": 0,
+    "map": 0,
+    "name": "Crystal Daemons",
+    "category": "named",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6543,
+    "y": 84,
+    "z": 0,
+    "map": 1,
+    "name": "Crystal Daemons",
+    "category": "named",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6577,
+    "y": 90,
+    "z": 0,
+    "map": 0,
+    "name": "Crystal Hydras and Sea Serpents",
+    "category": "named",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6577,
+    "y": 90,
+    "z": 0,
+    "map": 1,
+    "name": "Crystal Hydras and Sea Serpents",
+    "category": "named",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6569,
+    "y": 91,
+    "z": 0,
+    "map": 0,
+    "name": "Damaging Water Spray",
+    "category": "trap",
+    "color": "red"
+   },
+   {
+    "x": 6569,
+    "y": 91,
+    "z": 0,
+    "map": 1,
+    "name": "Damaging Water Spray",
+    "category": "trap",
+    "color": "red"
+   },
+   {
+    "x": 6503,
+    "y": 87,
+    "z": 0,
+    "map": 0,
+    "name": "Landing Point",
+    "category": "point",
+    "color": "red"
+   },
+   {
+    "x": 6503,
+    "y": 87,
+    "z": 0,
+    "map": 1,
+    "name": "Landing Point",
+    "category": "point",
+    "color": "red"
+   },
+   {
+    "x": 6510,
+    "y": 86,
+    "z": 0,
+    "map": 0,
+    "name": "Energy Squiggle Puzzle",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 6510,
+    "y": 86,
+    "z": 0,
+    "map": 1,
+    "name": "Energy Squiggle Puzzle",
+    "category": "interest",
+    "color": "red"
+   },
+   {
+    "x": 6568,
+    "y": 77,
+    "z": 0,
+    "map": 0,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 6568,
+    "y": 77,
+    "z": 0,
+    "map": 1,
+    "name": "Down",
+    "category": "down",
+    "color": "red"
+   },
+   {
+    "x": 6511,
+    "y": 79,
+    "z": 0,
+    "map": 0,
+    "name": "A Crystal of Prismatic Amber",
+    "category": "point",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6511,
+    "y": 79,
+    "z": 0,
+    "map": 1,
+    "name": "A Crystal of Prismatic Amber",
+    "category": "point",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 6523,
+    "y": 71,
+    "z": 0,
+    "map": 0,
+    "name": "Landing Point",
+    "category": "point",
+    "color": "red"
+   },
+   {
+    "x": 6523,
+    "y": 71,
+    "z": 0,
+    "map": 1,
+    "name": "Landing Point",
+    "category": "point",
+    "color": "red"
+   },
+   {
+    "x": 6576,
+    "y": 72,
+    "z": 0,
+    "map": 0,
+    "name": "Landing Point",
+    "category": "point",
+    "color": "red"
+   },
+   {
+    "x": 6576,
+    "y": 72,
+    "z": 0,
+    "map": 1,
+    "name": "Landing Point",
+    "category": "point",
+    "color": "red"
+   }
+  ],
+  "4,2": [
+   {
+    "x": 442,
+    "y": 204,
+    "z": 0,
+    "map": 3,
+    "name": "Bone Daemon",
+    "category": "named",
+    "color": "red",
+    "major": true
+   }
+  ],
+  "64,0": [
+   {
+    "x": 6471,
+    "y": 75,
+    "z": 0,
+    "map": 0,
+    "name": "Snake Pit Exit",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 6471,
+    "y": 75,
+    "z": 0,
+    "map": 1,
+    "name": "Snake Pit Exit",
+    "category": "exit",
+    "color": "red"
+   },
+   {
+    "x": 6476,
+    "y": 75,
+    "z": 0,
+    "map": 0,
+    "name": "Snake Pit",
+    "category": "point",
+    "color": "red"
+   },
+   {
+    "x": 6476,
+    "y": 75,
+    "z": 0,
+    "map": 1,
+    "name": "Snake Pit",
+    "category": "point",
+    "color": "red"
+   }
+  ],
+  "5,6": [
+   {
+    "x": 575,
+    "y": 642,
+    "z": 0,
+    "map": 5,
+    "name": "Lands of The Lich (Mini-Champ)",
+    "category": "named",
+    "color": "red",
+    "major": true
+   }
+  ],
+  "4,7": [
+   {
+    "x": 443,
+    "y": 713,
+    "z": 0,
+    "map": 5,
+    "name": "Secret Garden (Mini-Champ)",
+    "category": "named",
+    "color": "red",
+    "major": true
+   }
+  ],
+  "5,7": [
+   {
+    "x": 523,
+    "y": 758,
+    "z": 0,
+    "map": 5,
+    "name": "Fire Temple Ruins (Mini-Champ)",
+    "category": "named",
+    "color": "red",
+    "major": true
+   }
+  ],
+  "9,1": [
+   {
+    "x": 951,
+    "y": 187,
+    "z": 0,
+    "map": 5,
+    "name": "Crimson Veins (Mini-Champ)",
+    "category": "named",
+    "color": "red",
+    "major": true
+   }
+  ],
+  "8,2": [
+   {
+    "x": 875,
+    "y": 276,
+    "z": 0,
+    "map": 5,
+    "name": "Dragon Lair Entrance (Mini-Champ)",
+    "category": "named",
+    "color": "red",
+    "major": true
+   }
+  ],
+  "9,3": [
+   {
+    "x": 989,
+    "y": 380,
+    "z": 0,
+    "map": 5,
+    "name": "Abyssal Lair (Mini-Champ)",
+    "category": "named",
+    "color": "red",
+    "major": true
+   }
+  ],
+  "6,5": [
+   {
+    "x": 682,
+    "y": 584,
+    "z": 0,
+    "map": 5,
+    "name": "Passage of Tears (Mini-Champ)",
+    "category": "named",
+    "color": "red",
+    "major": true
+   }
+  ],
+  "5,8": [
+   {
+    "x": 579,
+    "y": 810,
+    "z": 0,
+    "map": 5,
+    "name": "Enslaved Goblins (Mini-Champ)",
+    "category": "named",
+    "color": "red",
+    "major": true
+   }
+  ],
+  "6,8": [
+   {
+    "x": 673,
+    "y": 835,
+    "z": 0,
+    "map": 5,
+    "name": "Skeletal Dragon (Mini-Champ)",
+    "category": "named",
+    "color": "red",
+    "major": true
+   }
+  ],
+  "5,9": [
+   {
+    "x": 592,
+    "y": 903,
+    "z": 0,
+    "map": 5,
+    "name": "Lava Caldera (Mini-Champ)",
+    "category": "named",
+    "color": "red",
+    "major": true
+   }
+  ],
+  "21,12": [
+   {
+    "x": 2157,
+    "y": 1206,
+    "z": 0,
+    "map": 2,
+    "name": "NPC: Lady Lissith",
+    "category": "named",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 2131,
+    "y": 1208,
+    "z": 0,
+    "map": 2,
+    "name": "NPC: Guile",
+    "category": "named",
+    "color": "red",
+    "major": true
+   },
+   {
+    "x": 2177,
+    "y": 1210,
+    "z": 0,
+    "map": 2,
+    "name": "NPC: Lady Sabrix",
+    "category": "named",
+    "color": "red",
+    "major": true
+   }
+  ],
+  "5,24": [
+   {
+    "x": 543,
+    "y": 2478,
+    "z": 0,
+    "map": 5,
+    "name": "To Eodon",
+    "category": "teleporter",
+    "color": "red"
+   }
+  ],
+  "6,22": [
+   {
+    "x": 600,
+    "y": 2293,
+    "z": 0,
+    "map": 5,
+    "name": "Lever Puzzle",
+    "category": "interest",
+    "color": "red"
+   }
+  ]
+ }
+}

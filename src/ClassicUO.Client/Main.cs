@@ -118,6 +118,10 @@ namespace ClassicUO
 
             Settings.GlobalSettings = ConfigurationResolver.Load(globalSettingsPath, SettingsJsonContext.RealDefault.Settings);
 
+            // settings.json is the sole source of shard, version, data paths and selection;
+            // the repo-root .env adds only the account (UO_USER / UO_PASS). No flag overrides either.
+            Agent.AgentSettings.ApplyDotEnv(args);
+
             ReadSettingsFromArgs(args);
 
             // still invalid, cannot load settings
@@ -249,80 +253,9 @@ namespace ClassicUO
 
                 switch (cmd)
                 {
-                    // Here we have it! Using `-settings` option we can now set the filepath that will be used
-                    // to load and save ClassicUO main settings instead of default `./settings.json`
-                    // NOTE: All individual settings like `username`, `password`, etc passed in command-line options
-                    // will override and overwrite those in the settings file because they have higher priority
-                    case "settings":
-                        Settings.CustomSettingsFilepath = value;
-
-                        break;
-
                     case "highdpi":
                         CUOEnviroment.IsHighDPI = true;
 
-                        break;
-
-                    case "username":
-                        Settings.GlobalSettings.Username = value;
-
-                        break;
-
-                    case "password":
-                        Settings.GlobalSettings.Password = Crypter.Encrypt(value);
-
-                        break;
-
-                    case "password_enc": // Non-standard setting, similar to `password` but for already encrypted password
-                        Settings.GlobalSettings.Password = value;
-
-                        break;
-
-                    case "ip":
-                        Settings.GlobalSettings.IP = value;
-
-                        break;
-
-                    case "port":
-                        Settings.GlobalSettings.Port = ushort.Parse(value);
-
-                        break;
-
-                    case "filesoverride":
-                    case "uofilesoverride":
-                        Settings.GlobalSettings.OverrideFile = value;
-
-                        break;
-
-                    case "ultimaonlinedirectory":
-                    case "uopath":
-                        Settings.GlobalSettings.UltimaOnlineDirectory = value;
-
-                        break;
-
-                    case "profilespath":
-                        Settings.GlobalSettings.ProfilesPath = value;
-
-                        break;
-
-                    case "clientversion":
-                        Settings.GlobalSettings.ClientVersion = value;
-
-                        break;
-
-                    case "lastcharactername":
-                    case "lastcharname":
-                        LastCharacterManager.OverrideLastCharacter(value);
-
-                        break;
-
-                    case "lastservernum":
-                        Settings.GlobalSettings.LastServerNum = ushort.Parse(value);
-
-                        break;
-
-                    case "last_server_name":
-                        Settings.GlobalSettings.LastServerName = value;
                         break;
 
                     case "fps":
@@ -480,6 +413,34 @@ namespace ClassicUO
                     case "no_server_ping":
 
                         CUOEnviroment.NoServerPing = true;
+
+                        break;
+
+                    // Hide the game window. Everything else - game loop, world, network - runs
+                    // exactly as it does windowed, so the CLI drives an identical client.
+                    case "headless":
+
+                        CUOEnviroment.Headless = true;
+                        CUOEnviroment.Agent = true;
+
+                        break;
+
+                    // Host the CLI command engine + /tmp/cuocmd daemon inside this process.
+                    case "agent":
+
+                        CUOEnviroment.Agent = true;
+
+                        break;
+
+                    case "cmdfile":
+
+                        CUOEnviroment.AgentCommandFile = value;
+
+                        break;
+
+                    case "logfile":
+
+                        CUOEnviroment.AgentLogFile = value;
 
                         break;
                 }

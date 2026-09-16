@@ -265,3 +265,6 @@ __pycache__/
 *.pyc
 /.svn
 Data
+
+# Shard account. Never commit - see .env.example for the template.
+/.env

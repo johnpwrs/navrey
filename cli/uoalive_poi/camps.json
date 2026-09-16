@@ -1,0 +1,230 @@
+{
+ "source": "Camps.map",
+ "gridSize": 100,
+ "bounds": {
+  "minX": 758,
+  "maxX": 3722,
+  "minY": 192,
+  "maxY": 2680
+ },
+ "pointCount": 20,
+ "cellCount": 18,
+ "cells": {
+  "8,16": [
+   {
+    "x": 853,
+    "y": 1687,
+    "z": 0,
+    "map": 0,
+    "name": "Brigand Camp",
+    "category": "camp",
+    "color": "yellow"
+   },
+   {
+    "x": 853,
+    "y": 1687,
+    "z": 0,
+    "map": 1,
+    "name": "Brigand Camp",
+    "category": "camp",
+    "color": "yellow"
+   }
+  ],
+  "37,26": [
+   {
+    "x": 3722,
+    "y": 2642,
+    "z": 0,
+    "map": 1,
+    "name": "Brigands",
+    "category": "camp",
+    "color": "yellow"
+   },
+   {
+    "x": 3717,
+    "y": 2680,
+    "z": 0,
+    "map": 1,
+    "name": "Brigands",
+    "category": "camp",
+    "color": "yellow"
+   }
+  ],
+  "9,11": [
+   {
+    "x": 939,
+    "y": 1147,
+    "z": 0,
+    "map": 3,
+    "name": "Brigand Camp",
+    "category": "camp",
+    "color": "yellow"
+   }
+  ],
+  "10,11": [
+   {
+    "x": 1069,
+    "y": 1151,
+    "z": 0,
+    "map": 2,
+    "name": "Ratman Camp",
+    "category": "camp",
+    "color": "yellow"
+   }
+  ],
+  "15,12": [
+   {
+    "x": 1589,
+    "y": 1278,
+    "z": 0,
+    "map": 3,
+    "name": "Brigand Camp",
+    "category": "camp",
+    "color": "yellow"
+   }
+  ],
+  "11,12": [
+   {
+    "x": 1123,
+    "y": 1236,
+    "z": 0,
+    "map": 2,
+    "name": "Brigand Tower",
+    "category": "camp",
+    "color": "yellow"
+   }
+  ],
+  "16,15": [
+   {
+    "x": 1664,
+    "y": 1508,
+    "z": 0,
+    "map": 3,
+    "name": "Brigand Camp",
+    "category": "camp",
+    "color": "yellow"
+   }
+  ],
+  "7,2": [
+   {
+    "x": 758,
+    "y": 208,
+    "z": 0,
+    "map": 2,
+    "name": "Cyclops Camp",
+    "category": "camp",
+    "color": "yellow"
+   }
+  ],
+  "9,4": [
+   {
+    "x": 946,
+    "y": 427,
+    "z": 0,
+    "map": 2,
+    "name": "Gargoyle Mining Camp",
+    "category": "camp",
+    "color": "yellow"
+   }
+  ],
+  "8,4": [
+   {
+    "x": 856,
+    "y": 463,
+    "z": 0,
+    "map": 2,
+    "name": "Undead Camp",
+    "category": "camp",
+    "color": "yellow"
+   }
+  ],
+  "10,5": [
+   {
+    "x": 1044,
+    "y": 519,
+    "z": 0,
+    "map": 2,
+    "name": "Savage Camp",
+    "category": "camp",
+    "color": "yellow"
+   }
+  ],
+  "9,7": [
+   {
+    "x": 979,
+    "y": 796,
+    "z": 0,
+    "map": 2,
+    "name": "Earth Elemental Camp",
+    "category": "camp",
+    "color": "yellow"
+   }
+  ],
+  "24,6": [
+   {
+    "x": 2400,
+    "y": 620,
+    "z": 0,
+    "map": 3,
+    "name": "Brigand Camp",
+    "category": "camp",
+    "color": "yellow"
+   }
+  ],
+  "12,7": [
+   {
+    "x": 1205,
+    "y": 700,
+    "z": 0,
+    "map": 3,
+    "name": "Orc Camp",
+    "category": "camp",
+    "color": "yellow"
+   }
+  ],
+  "12,13": [
+   {
+    "x": 1255,
+    "y": 1325,
+    "z": 0,
+    "map": 3,
+    "name": "Orc Camp",
+    "category": "camp",
+    "color": "yellow"
+   }
+  ],
+  "15,18": [
+   {
+    "x": 1598,
+    "y": 1818,
+    "z": 0,
+    "map": 3,
+    "name": "Orc Camp",
+    "category": "camp",
+    "color": "yellow"
+   }
+  ],
+  "9,1": [
+   {
+    "x": 910,
+    "y": 192,
+    "z": 0,
+    "map": 3,
+    "name": "Orc Camp",
+    "category": "camp",
+    "color": "yellow"
+   }
+  ],
+  "14,4": [
+   {
+    "x": 1401,
+    "y": 416,
+    "z": 0,
+    "map": 3,
+    "name": "Brigand Camp",
+    "category": "camp",
+    "color": "yellow"
+   }
+  ]
+ }
+}
