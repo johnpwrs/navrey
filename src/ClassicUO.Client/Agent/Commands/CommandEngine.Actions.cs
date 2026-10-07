@@ -2,6 +2,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -479,10 +480,19 @@ namespace ClassicUO.Agent
                 ctx.Print(ctx.Game(w => GameActions.OpenBackpack(w)) ? "Backpack opened" : "No backpack");
             });
 
-            Register("target", "target <serial|self>", "Answer a target cursor", ctx =>
+            Register("target", "target <serial|self> | target <x> <y> [z] [graphic]",
+                     "Answer a target cursor with an object, or with a ground/static tile", ctx =>
             {
                 if (!ctx.RequireInGame())
                 {
+                    return;
+                }
+
+                // A serial is a single token, so two or more arguments are a tile.
+                if (ctx.ArgCount >= 2)
+                {
+                    TargetTile(ctx);
+
                     return;
                 }
 
@@ -518,6 +528,126 @@ namespace ClassicUO.Agent
 
                 ctx.Print(result ?? $"Targeted {arg}");
             });
+
+            // `target <x> <y> [z] [graphic]`: answer the cursor with a ground or static tile. z defaults to
+            // the land height, graphic to the topmost static on the tile (at z, if given), else 0 for land.
+            static void TargetTile(CommandContext ctx)
+            {
+                if (!ushort.TryParse(ctx.Arg(0), out ushort tx)
+                    || !ushort.TryParse(ctx.Arg(1), out ushort ty))
+                {
+                    ctx.Warn("usage: target <x> <y> [z] [graphic]");
+
+                    return;
+                }
+
+                bool haveZ = ctx.ArgCount >= 3;
+                sbyte argZ = 0;
+
+                if (haveZ && !sbyte.TryParse(ctx.Arg(2), out argZ))
+                {
+                    ctx.Warn($"could not parse z '{ctx.Arg(2)}'");
+
+                    return;
+                }
+
+                // The graphic is accepted the way `tiles` prints it (0x0CCA) as well as in decimal.
+                bool haveGraphic = ctx.ArgCount >= 4;
+                ushort argGraphic = 0;
+
+                if (haveGraphic)
+                {
+                    string g = ctx.Arg(3);
+                    bool parsed = g.StartsWith("0x", StringComparison.OrdinalIgnoreCase)
+                        ? ushort.TryParse(g.Substring(2), NumberStyles.HexNumber, CultureInfo.InvariantCulture, out argGraphic)
+                        : ushort.TryParse(g, NumberStyles.Integer, CultureInfo.InvariantCulture, out argGraphic);
+
+                    if (!parsed)
+                    {
+                        ctx.Warn($"could not parse graphic '{g}' (use 0x0CCA or decimal)");
+
+                        return;
+                    }
+                }
+
+                string result = ctx.Game(w =>
+                {
+                    if (!w.TargetManager.IsTargeting)
+                    {
+                        return "nothing is asking for a target";
+                    }
+
+                    Land land = null;
+                    Static top = null;
+                    Static named = null;
+
+                    for (GameObject o = w.Map.GetTile(tx, ty); o != null; o = o.TNext)
+                    {
+                        if (o is Land l)
+                        {
+                            land = l;
+                        }
+                        else if (o is Static st && (!haveZ || st.Z == argZ))
+                        {
+                            // The list runs bottom to top, so the last match is the topmost.
+                            top = st;
+
+                            if (haveGraphic && st.Graphic == argGraphic)
+                            {
+                                named = st;
+                            }
+                        }
+                    }
+
+                    ushort graphic;
+                    short z;
+
+                    if (haveGraphic && argGraphic != 0)
+                    {
+                        // The server only accepts a static target that really is at that tile and z,
+                        // and cancels the cursor otherwise - so check before spending the cursor.
+                        if (named == null)
+                        {
+                            return $"no static 0x{argGraphic:X4} at {tx},{ty} z={argZ} - cursor left open";
+                        }
+
+                        graphic = named.Graphic;
+                        z = named.Z;
+                    }
+                    else if (!haveGraphic && top != null)
+                    {
+                        graphic = top.Graphic;
+                        z = top.Z;
+                    }
+                    else if (haveZ)
+                    {
+                        graphic = 0;
+                        z = argZ;
+                    }
+                    else if (land != null)
+                    {
+                        // The land the client has loaded, as a click in the game window would use.
+                        graphic = 0;
+                        z = land.Z;
+                    }
+                    else
+                    {
+                        return $"no map data at {tx},{ty} - cursor left open";
+                    }
+
+                    w.TargetManager.Target(graphic, tx, ty, z);
+
+                    string what = $"{tx},{ty} z={z} graphic=0x{graphic:X4} ({(graphic == 0 ? "land" : "static")})";
+
+                    // A sent target always closes the cursor. One still open means the client
+                    // declined to send it - an object-only cursor offered bare land, say.
+                    return w.TargetManager.IsTargeting
+                        ? $"the cursor did not take tile {what} - it may want an object; cursor left open"
+                        : $"Targeted tile {what}";
+                });
+
+                ctx.Print(result);
+            }
 
             Register("canceltarget", "canceltarget", "Cancel a pending target cursor", ctx =>
             {

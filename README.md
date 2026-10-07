@@ -211,6 +211,7 @@ aliases. Serials are the `0x...` ids that `mobiles`, `items` and `inv` print nex
 | `equip <serial>`                   | Wear something from your backpack.                         |
 | `unequip <serial>`                 | Take something off into your backpack.                     |
 | `target <serial\|self>`            | Answer a target cursor, for example after using a bandage. |
+| `target <x> <y> [z] [graphic]`     | Answer a target cursor with a spot on the ground, such as water to fish or a tree to chop. |
 | `canceltarget`                     | Dismiss a target cursor.                                   |
 
 **Fighting**
